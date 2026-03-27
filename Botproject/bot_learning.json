@@ -1,0 +1,39 @@
+{
+  "total_trades": 9,
+  "total_wins": 3,
+  "params": {
+    "rsi_period": 14,
+    "rsi_oversold": 32,
+    "rsi_overbought": 68,
+    "fast_ema": 9,
+    "slow_ema": 21,
+    "bb_period": 20,
+    "bb_std": 2.0,
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9,
+    "atr_period": 14,
+    "min_score": 2,
+    "volume_factor": 0.5
+  },
+  "symbol_stats": {
+    "LTCUSDT": {
+      "trades": 5,
+      "wins": 3,
+      "total_pnl": -0.0001
+    },
+    "POLUSDT": {
+      "trades": 4,
+      "wins": 0,
+      "total_pnl": 0.0
+    }
+  },
+  "hour_stats": {
+    "18": {
+      "trades": 9,
+      "wins": 3
+    }
+  },
+  "param_experiments": [],
+  "last_adjusted": null
+}

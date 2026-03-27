@@ -1,0 +1,1643 @@
+2026-03-27 16:21:12 [INFO] =======================================================
+2026-03-27 16:21:12 [INFO]   BOT ADAPTATIVO — ALTCOINS VOLÁTILES
+2026-03-27 16:21:12 [INFO]   Monedas  : SOLUSDT, DOGEUSDT, AVAXUSDT, MATICUSDT, LINKUSDT, DOTUSDT, ADAUSDT, LTCUSDT
+2026-03-27 16:21:12 [INFO]   Intervalo: 15m  |  Modo: TESTNET
+2026-03-27 16:21:12 [INFO]   Max posiciones simultáneas: 3
+2026-03-27 16:21:12 [INFO] =======================================================
+2026-03-27 16:21:13 [INFO] Conectado al TESTNET de Binance (paper trading)
+2026-03-27 16:21:13 [INFO] =======================================================
+2026-03-27 16:21:13 [INFO]   RESUMEN DE APRENDIZAJE
+2026-03-27 16:21:13 [INFO]   Total trades  : 0
+2026-03-27 16:21:13 [INFO]   Sin trades aún
+2026-03-27 16:21:13 [INFO]   Parámetros actuales: {'rsi_period': 14, 'rsi_oversold': 32, 'rsi_overbought': 68, 'fast_ema': 9, 'slow_ema': 21, 'bb_period': 20, 'bb_std': 2.0, 'macd_fast': 12, 'macd_slow': 26, 'macd_signal': 9, 'atr_period': 14, 'min_score': 3, 'volume_factor': 1.2}
+2026-03-27 16:21:13 [INFO] =======================================================
+2026-03-27 16:21:14 [INFO] 
+── Ciclo #1 | 16:21:13 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:21:14 [INFO]   SOLUSDT      $   82.3500 | RSI= 30.5 | Score=1/6 | Vol x0.7 | 
+2026-03-27 16:21:14 [INFO]   DOGEUSDT     $    0.0901 | RSI= 44.8 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:21:15 [INFO]   AVAXUSDT     $    8.7300 | RSI= 34.6 | Score=1/6 | Vol x3.3 | 
+2026-03-27 16:21:15 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:21:15 [INFO]   LINKUSDT     $    8.5200 | RSI= 28.6 | Score=3/6 | Vol x0.1 | 
+2026-03-27 16:21:15 [INFO]   DOTUSDT      $    1.2760 | RSI= 44.7 | Score=2/6 | Vol x0.2 | 
+2026-03-27 16:21:16 [INFO]   ADAUSDT      $    0.2463 | RSI= 38.6 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:21:16 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:21:17 [ERROR]   Error abriendo LINKUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 16:22:17 [INFO] 
+── Ciclo #2 | 16:22:17 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:22:18 [INFO]   SOLUSDT      $   82.3200 | RSI= 29.7 | Score=2/6 | Vol x0.8 | 
+2026-03-27 16:22:18 [INFO]   DOGEUSDT     $    0.0901 | RSI= 44.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:22:18 [INFO]   AVAXUSDT     $    8.7300 | RSI= 34.6 | Score=1/6 | Vol x3.8 | 
+2026-03-27 16:22:19 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:22:19 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.2 | 
+2026-03-27 16:22:19 [INFO]   DOTUSDT      $    1.2740 | RSI= 42.2 | Score=1/6 | Vol x0.3 | 
+2026-03-27 16:22:19 [INFO]   ADAUSDT      $    0.2463 | RSI= 38.6 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:22:20 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:23:21 [INFO] 
+── Ciclo #3 | 16:23:20 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:23:21 [INFO]   SOLUSDT      $   82.3500 | RSI= 30.5 | Score=1/6 | Vol x0.8 | 
+2026-03-27 16:23:21 [INFO]   DOGEUSDT     $    0.0902 | RSI= 46.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:23:22 [INFO]   AVAXUSDT     $    8.7400 | RSI= 37.0 | Score=1/6 | Vol x4.4 | 
+2026-03-27 16:23:22 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:23:23 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 16:23:23 [INFO]   DOTUSDT      $    1.2760 | RSI= 44.7 | Score=2/6 | Vol x0.4 | 
+2026-03-27 16:23:23 [INFO]   ADAUSDT      $    0.2467 | RSI= 42.6 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:23:24 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:24:24 [INFO] 
+── Ciclo #4 | 16:24:24 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:24:24 [INFO]   SOLUSDT      $   82.3500 | RSI= 30.5 | Score=1/6 | Vol x0.9 | 
+2026-03-27 16:24:25 [INFO]   DOGEUSDT     $    0.0902 | RSI= 46.5 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:24:25 [INFO]   AVAXUSDT     $    8.7400 | RSI= 37.0 | Score=1/6 | Vol x4.9 | 
+2026-03-27 16:24:25 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:24:25 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 16:24:26 [INFO]   DOTUSDT      $    1.2760 | RSI= 44.7 | Score=2/6 | Vol x0.4 | 
+2026-03-27 16:24:27 [INFO]   ADAUSDT      $    0.2468 | RSI= 43.5 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:24:27 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:25:28 [INFO] 
+── Ciclo #5 | 16:25:27 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:25:28 [INFO]   SOLUSDT      $   82.3000 | RSI= 29.1 | Score=2/6 | Vol x0.9 | 
+2026-03-27 16:25:28 [INFO]   DOGEUSDT     $    0.0902 | RSI= 46.2 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:25:29 [INFO]   AVAXUSDT     $    8.7400 | RSI= 37.0 | Score=1/6 | Vol x5.5 | 
+2026-03-27 16:25:29 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:25:29 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 16:25:30 [INFO]   DOTUSDT      $    1.2770 | RSI= 45.8 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:25:30 [INFO]   ADAUSDT      $    0.2468 | RSI= 43.5 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:25:30 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:26:31 [INFO] 
+── Ciclo #6 | 16:26:30 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:26:31 [INFO]   SOLUSDT      $   82.2600 | RSI= 28.0 | Score=3/6 | Vol x1.0 | 
+2026-03-27 16:26:31 [INFO]   DOGEUSDT     $    0.0901 | RSI= 45.2 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:26:31 [INFO]   AVAXUSDT     $    8.7300 | RSI= 34.6 | Score=1/6 | Vol x6.0 | 
+2026-03-27 16:26:32 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:26:32 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 16:26:32 [INFO]   DOTUSDT      $    1.2770 | RSI= 45.8 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:26:33 [INFO]   ADAUSDT      $    0.2465 | RSI= 40.7 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:26:33 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:26:34 [ERROR]   Error abriendo SOLUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 16:27:34 [INFO] 
+── Ciclo #7 | 16:27:34 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:27:35 [INFO]   SOLUSDT      $   82.3200 | RSI= 29.7 | Score=2/6 | Vol x1.2 | 
+2026-03-27 16:27:35 [INFO]   DOGEUSDT     $    0.0902 | RSI= 46.0 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:27:35 [INFO]   AVAXUSDT     $    8.7300 | RSI= 34.6 | Score=1/6 | Vol x6.0 | 
+2026-03-27 16:27:36 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:27:36 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 16:27:37 [INFO]   DOTUSDT      $    1.2770 | RSI= 45.8 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:27:37 [INFO]   ADAUSDT      $    0.2465 | RSI= 40.7 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:27:37 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:28:38 [INFO] 
+── Ciclo #8 | 16:28:37 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:28:39 [INFO]   SOLUSDT      $   82.3200 | RSI= 29.7 | Score=2/6 | Vol x1.2 | 
+2026-03-27 16:28:39 [INFO]   DOGEUSDT     $    0.0902 | RSI= 45.7 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:28:39 [INFO]   AVAXUSDT     $    8.7300 | RSI= 34.6 | Score=1/6 | Vol x6.0 | 
+2026-03-27 16:28:40 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:28:40 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 16:28:40 [INFO]   DOTUSDT      $    1.2770 | RSI= 45.8 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:28:40 [INFO]   ADAUSDT      $    0.2465 | RSI= 40.7 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:28:41 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:29:41 [INFO] 
+── Ciclo #9 | 16:29:41 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:29:41 [INFO]   SOLUSDT      $   82.5200 | RSI= 34.8 | Score=1/6 | Vol x1.3 | 
+2026-03-27 16:29:42 [INFO]   DOGEUSDT     $    0.0902 | RSI= 47.8 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:29:42 [INFO]   AVAXUSDT     $    8.7300 | RSI= 34.6 | Score=1/6 | Vol x6.0 | 
+2026-03-27 16:29:42 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:29:43 [INFO]   LINKUSDT     $    8.5300 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 16:29:43 [INFO]   DOTUSDT      $    1.2770 | RSI= 45.8 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:29:44 [INFO]   ADAUSDT      $    0.2467 | RSI= 42.6 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:29:44 [INFO]   LTCUSDT      $   53.5500 | RSI= 22.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:30:44 [INFO] 
+── Ciclo #10 | 16:30:44 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:30:45 [INFO]   SOLUSDT      $   82.6800 | RSI= 44.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:30:45 [INFO]   DOGEUSDT     $    0.0903 | RSI= 54.2 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:30:45 [INFO]   AVAXUSDT     $    8.7300 | RSI= 37.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:30:46 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:30:46 [INFO]   LINKUSDT     $    8.5500 | RSI= 40.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:30:46 [INFO]   DOTUSDT      $    1.2780 | RSI= 44.7 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:30:47 [INFO]   ADAUSDT      $    0.2470 | RSI= 49.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:30:47 [INFO]   LTCUSDT      $   53.8400 | RSI= 40.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:31:47 [INFO] 
+── Ciclo #11 | 16:31:47 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:31:47 [INFO]   SOLUSDT      $   82.6200 | RSI= 43.4 | Score=0/6 | Vol x0.2 | 
+2026-03-27 16:31:48 [INFO]   DOGEUSDT     $    0.0903 | RSI= 53.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 16:31:48 [INFO]   AVAXUSDT     $    8.7300 | RSI= 37.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:31:48 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:31:49 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:31:49 [INFO]   DOTUSDT      $    1.2780 | RSI= 44.7 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:31:49 [INFO]   ADAUSDT      $    0.2470 | RSI= 49.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:31:50 [INFO]   LTCUSDT      $   53.8400 | RSI= 40.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:32:50 [INFO] 
+── Ciclo #12 | 16:32:50 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:32:50 [INFO]   SOLUSDT      $   82.6800 | RSI= 44.8 | Score=0/6 | Vol x0.2 | 
+2026-03-27 16:32:51 [INFO]   DOGEUSDT     $    0.0902 | RSI= 52.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:32:51 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:32:52 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:32:52 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:32:52 [INFO]   DOTUSDT      $    1.2770 | RSI= 43.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:32:53 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 16:32:53 [INFO]   LTCUSDT      $   53.8400 | RSI= 40.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:33:53 [INFO] 
+── Ciclo #13 | 16:33:53 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:33:53 [INFO]   SOLUSDT      $   82.7200 | RSI= 45.7 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:33:54 [INFO]   DOGEUSDT     $    0.0902 | RSI= 52.6 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:33:55 [INFO]   AVAXUSDT     $    8.7600 | RSI= 44.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:33:55 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:33:55 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:33:56 [INFO]   DOTUSDT      $    1.2770 | RSI= 43.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:33:56 [INFO]   ADAUSDT      $    0.2468 | RSI= 47.4 | Score=0/6 | Vol x0.2 | 
+2026-03-27 16:33:56 [INFO]   LTCUSDT      $   53.8400 | RSI= 40.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:34:56 [INFO] 
+── Ciclo #14 | 16:34:56 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:34:57 [INFO]   SOLUSDT      $   82.7300 | RSI= 45.9 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:34:57 [INFO]   DOGEUSDT     $    0.0903 | RSI= 53.3 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:34:57 [INFO]   AVAXUSDT     $    8.7700 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:34:58 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:34:58 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:34:58 [INFO]   DOTUSDT      $    1.2770 | RSI= 43.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:34:59 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:34:59 [INFO]   LTCUSDT      $   53.8400 | RSI= 40.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:35:59 [INFO] 
+── Ciclo #15 | 16:35:59 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:35:59 [INFO]   SOLUSDT      $   82.7000 | RSI= 45.2 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:36:00 [INFO]   DOGEUSDT     $    0.0903 | RSI= 53.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:36:00 [INFO]   AVAXUSDT     $    8.7700 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:36:00 [WARNING]   Error analizando MATICUSDT: APIError(code=-1121): Invalid symbol.
+2026-03-27 16:36:01 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:36:01 [INFO]   DOTUSDT      $    1.2800 | RSI= 46.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:36:02 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:36:02 [INFO]   LTCUSDT      $   53.8400 | RSI= 40.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:36:32 [INFO] 
+Bot detenido por el usuario (Ctrl+C).
+2026-03-27 16:36:32 [INFO] =======================================================
+2026-03-27 16:36:32 [INFO]   RESUMEN DE APRENDIZAJE
+2026-03-27 16:36:32 [INFO]   Total trades  : 0
+2026-03-27 16:36:32 [INFO]   Sin trades aún
+2026-03-27 16:36:32 [INFO]   Parámetros actuales: {'rsi_period': 14, 'rsi_oversold': 32, 'rsi_overbought': 68, 'fast_ema': 9, 'slow_ema': 21, 'bb_period': 20, 'bb_std': 2.0, 'macd_fast': 12, 'macd_slow': 26, 'macd_signal': 9, 'atr_period': 14, 'min_score': 3, 'volume_factor': 1.2}
+2026-03-27 16:36:32 [INFO] =======================================================
+2026-03-27 16:36:35 [INFO] =======================================================
+2026-03-27 16:36:35 [INFO]   BOT ADAPTATIVO — ALTCOINS VOLÁTILES
+2026-03-27 16:36:35 [INFO]   Monedas  : SOLUSDT, DOGEUSDT, AVAXUSDT, POLUSDT, LINKUSDT, DOTUSDT, ADAUSDT, LTCUSDT
+2026-03-27 16:36:35 [INFO]   Intervalo: 15m  |  Modo: TESTNET
+2026-03-27 16:36:35 [INFO]   Max posiciones simultáneas: 3
+2026-03-27 16:36:35 [INFO] =======================================================
+2026-03-27 16:36:36 [INFO] Conectado al TESTNET de Binance (paper trading)
+2026-03-27 16:36:36 [INFO] =======================================================
+2026-03-27 16:36:36 [INFO]   RESUMEN DE APRENDIZAJE
+2026-03-27 16:36:36 [INFO]   Total trades  : 0
+2026-03-27 16:36:36 [INFO]   Sin trades aún
+2026-03-27 16:36:36 [INFO]   Parámetros actuales: {'rsi_period': 14, 'rsi_oversold': 32, 'rsi_overbought': 68, 'fast_ema': 9, 'slow_ema': 21, 'bb_period': 20, 'bb_std': 2.0, 'macd_fast': 12, 'macd_slow': 26, 'macd_signal': 9, 'atr_period': 14, 'min_score': 3, 'volume_factor': 1.2}
+2026-03-27 16:36:36 [INFO] =======================================================
+2026-03-27 16:36:37 [INFO] 
+── Ciclo #1 | 16:36:36 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:36:37 [INFO]   SOLUSDT      $   82.7400 | RSI= 46.1 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:36:37 [INFO]   DOGEUSDT     $    0.0903 | RSI= 54.0 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:36:38 [INFO]   AVAXUSDT     $    8.7700 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:36:38 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:36:38 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:36:39 [INFO]   DOTUSDT      $    1.2800 | RSI= 46.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:36:39 [INFO]   ADAUSDT      $    0.2470 | RSI= 49.1 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:36:39 [INFO]   LTCUSDT      $   53.9300 | RSI= 43.2 | Score=1/6 | Vol x0.1 | 
+2026-03-27 16:37:39 [INFO] 
+── Ciclo #2 | 16:37:39 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:37:40 [INFO]   SOLUSDT      $   82.7800 | RSI= 46.9 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:37:40 [INFO]   DOGEUSDT     $    0.0903 | RSI= 54.2 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:37:41 [INFO]   AVAXUSDT     $    8.7700 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:37:41 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:37:42 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:37:42 [INFO]   DOTUSDT      $    1.2800 | RSI= 46.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:37:42 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:37:42 [INFO]   LTCUSDT      $   53.9100 | RSI= 42.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:38:43 [INFO] 
+── Ciclo #3 | 16:38:42 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:38:43 [INFO]   SOLUSDT      $   82.7500 | RSI= 46.3 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:38:43 [INFO]   DOGEUSDT     $    0.0903 | RSI= 54.0 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:38:44 [INFO]   AVAXUSDT     $    8.7700 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:38:44 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:38:44 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:38:45 [INFO]   DOTUSDT      $    1.2800 | RSI= 46.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:38:45 [INFO]   ADAUSDT      $    0.2470 | RSI= 49.1 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:38:45 [INFO]   LTCUSDT      $   53.9100 | RSI= 42.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:39:46 [INFO] 
+── Ciclo #4 | 16:39:45 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:39:46 [INFO]   SOLUSDT      $   82.7300 | RSI= 45.9 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:39:47 [INFO]   DOGEUSDT     $    0.0903 | RSI= 54.0 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:39:48 [INFO]   AVAXUSDT     $    8.7700 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:39:48 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:39:48 [INFO]   LINKUSDT     $    8.5600 | RSI= 43.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:39:48 [INFO]   DOTUSDT      $    1.2800 | RSI= 46.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:39:49 [INFO]   ADAUSDT      $    0.2470 | RSI= 49.1 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:39:49 [INFO]   LTCUSDT      $   53.9100 | RSI= 42.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:40:49 [INFO] 
+── Ciclo #5 | 16:40:49 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:40:50 [INFO]   SOLUSDT      $   82.6800 | RSI= 44.8 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:40:50 [INFO]   DOGEUSDT     $    0.0902 | RSI= 52.4 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:40:50 [INFO]   AVAXUSDT     $    8.7600 | RSI= 44.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:40:51 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:40:51 [INFO]   LINKUSDT     $    8.5400 | RSI= 39.1 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:40:51 [INFO]   DOTUSDT      $    1.2800 | RSI= 46.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:40:52 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:40:52 [INFO]   LTCUSDT      $   53.9100 | RSI= 42.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:41:52 [INFO] 
+── Ciclo #6 | 16:41:52 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:41:52 [INFO]   SOLUSDT      $   82.5200 | RSI= 41.1 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:41:53 [INFO]   DOGEUSDT     $    0.0902 | RSI= 50.7 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:41:54 [INFO]   AVAXUSDT     $    8.7400 | RSI= 40.0 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:41:54 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:41:54 [INFO]   LINKUSDT     $    8.5300 | RSI= 37.5 | Score=2/6 | Vol x9.5 | 
+2026-03-27 16:41:55 [INFO]   DOTUSDT      $    1.2790 | RSI= 45.8 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:41:55 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:41:55 [INFO]   LTCUSDT      $   53.9100 | RSI= 42.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:42:55 [INFO] 
+── Ciclo #7 | 16:42:55 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:42:56 [INFO]   SOLUSDT      $   82.5600 | RSI= 42.0 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:42:56 [INFO]   DOGEUSDT     $    0.0902 | RSI= 50.9 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:42:57 [INFO]   AVAXUSDT     $    8.7400 | RSI= 40.0 | Score=0/6 | Vol x0.9 | 
+2026-03-27 16:42:57 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:42:58 [INFO]   LINKUSDT     $    8.5500 | RSI= 40.9 | Score=1/6 | Vol x9.5 | 
+2026-03-27 16:42:58 [INFO]   DOTUSDT      $    1.2790 | RSI= 45.8 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:42:58 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:42:58 [INFO]   LTCUSDT      $   53.9100 | RSI= 42.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:43:59 [INFO] 
+── Ciclo #8 | 16:43:58 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:43:59 [INFO]   SOLUSDT      $   82.6600 | RSI= 44.4 | Score=0/6 | Vol x0.9 | 
+2026-03-27 16:43:59 [INFO]   DOGEUSDT     $    0.0902 | RSI= 51.6 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:44:00 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.3 | Score=1/6 | Vol x1.3 | 
+2026-03-27 16:44:00 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:44:00 [INFO]   LINKUSDT     $    8.5500 | RSI= 40.9 | Score=1/6 | Vol x9.5 | 
+2026-03-27 16:44:01 [INFO]   DOTUSDT      $    1.2790 | RSI= 45.8 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:44:01 [INFO]   ADAUSDT      $    0.2469 | RSI= 48.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:44:02 [INFO]   LTCUSDT      $   53.9100 | RSI= 42.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 16:45:02 [INFO] 
+── Ciclo #9 | 16:45:02 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:45:02 [INFO]   SOLUSDT      $   82.6600 | RSI= 46.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:45:03 [INFO]   DOGEUSDT     $    0.0902 | RSI= 53.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:45:03 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:45:03 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:45:04 [INFO]   LINKUSDT     $    8.5500 | RSI= 40.9 | Score=1/6 | Vol x9.5 | 
+2026-03-27 16:45:04 [INFO]   DOTUSDT      $    1.2790 | RSI= 44.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:45:04 [INFO]   ADAUSDT      $    0.2464 | RSI= 45.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:45:04 [INFO]   LTCUSDT      $   53.9100 | RSI= 44.9 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:46:05 [INFO] 
+── Ciclo #10 | 16:46:04 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:46:05 [INFO]   SOLUSDT      $   82.6200 | RSI= 45.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:46:05 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:46:06 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:46:06 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:46:06 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.9 | Score=1/6 | Vol x0.0 | 
+2026-03-27 16:46:07 [INFO]   DOTUSDT      $    1.2790 | RSI= 44.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:46:07 [INFO]   ADAUSDT      $    0.2465 | RSI= 46.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:46:07 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:47:08 [INFO] 
+── Ciclo #11 | 16:47:07 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:47:08 [INFO]   SOLUSDT      $   82.5500 | RSI= 44.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:47:08 [INFO]   DOGEUSDT     $    0.0901 | RSI= 52.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:47:08 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:47:09 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:47:10 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.9 | Score=2/6 | Vol x6.1 | 
+2026-03-27 16:47:10 [INFO]   DOTUSDT      $    1.2800 | RSI= 45.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:47:11 [INFO]   ADAUSDT      $    0.2465 | RSI= 46.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:47:11 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:48:11 [INFO] 
+── Ciclo #12 | 16:48:11 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:48:12 [INFO]   SOLUSDT      $   82.6400 | RSI= 45.6 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:48:12 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.4 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:48:12 [INFO]   AVAXUSDT     $    8.7500 | RSI= 45.8 | Score=0/6 | Vol x1.2 | 
+2026-03-27 16:48:13 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:48:13 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.9 | Score=2/6 | Vol x6.1 | 
+2026-03-27 16:48:14 [INFO]   DOTUSDT      $    1.2800 | RSI= 45.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:48:15 [INFO]   ADAUSDT      $    0.2465 | RSI= 46.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:48:15 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:49:15 [INFO] 
+── Ciclo #13 | 16:49:15 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:49:16 [INFO]   SOLUSDT      $   82.6800 | RSI= 46.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:49:16 [INFO]   DOGEUSDT     $    0.0901 | RSI= 52.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:49:16 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=1/6 | Vol x1.5 | 
+2026-03-27 16:49:16 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:49:17 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.9 | Score=2/6 | Vol x6.1 | 
+2026-03-27 16:49:17 [INFO]   DOTUSDT      $    1.2800 | RSI= 45.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:49:17 [INFO]   ADAUSDT      $    0.2465 | RSI= 46.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:49:18 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:50:19 [INFO] 
+── Ciclo #14 | 16:50:18 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:50:19 [INFO]   SOLUSDT      $   82.6400 | RSI= 45.6 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:50:19 [INFO]   DOGEUSDT     $    0.0901 | RSI= 52.4 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:50:19 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=1/6 | Vol x1.9 | 
+2026-03-27 16:50:20 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:50:21 [INFO]   LINKUSDT     $    8.5400 | RSI= 42.9 | Score=1/6 | Vol x6.1 | 
+2026-03-27 16:50:21 [INFO]   DOTUSDT      $    1.2790 | RSI= 44.7 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:50:21 [INFO]   ADAUSDT      $    0.2465 | RSI= 46.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:50:22 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:51:22 [INFO] 
+── Ciclo #15 | 16:51:22 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:51:22 [INFO]   SOLUSDT      $   82.6400 | RSI= 45.6 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:51:22 [INFO]   DOGEUSDT     $    0.0901 | RSI= 51.1 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:51:23 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=1/6 | Vol x2.3 | 
+2026-03-27 16:51:23 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:51:23 [INFO]   LINKUSDT     $    8.5400 | RSI= 42.9 | Score=1/6 | Vol x6.1 | 
+2026-03-27 16:51:24 [INFO]   DOTUSDT      $    1.2790 | RSI= 44.7 | Score=1/6 | Vol x3.4 | 
+2026-03-27 16:51:24 [INFO]   ADAUSDT      $    0.2461 | RSI= 43.3 | Score=1/6 | Vol x0.1 | 
+2026-03-27 16:51:24 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:52:25 [INFO] 
+── Ciclo #16 | 16:52:24 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:52:25 [INFO]   SOLUSDT      $   82.6100 | RSI= 45.1 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:52:25 [INFO]   DOGEUSDT     $    0.0900 | RSI= 50.2 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:52:26 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=1/6 | Vol x2.7 | 
+2026-03-27 16:52:26 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:52:27 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.9 | Score=2/6 | Vol x12.2 | 
+2026-03-27 16:52:27 [INFO]   DOTUSDT      $    1.2790 | RSI= 44.7 | Score=1/6 | Vol x3.4 | 
+2026-03-27 16:52:28 [INFO]   ADAUSDT      $    0.2462 | RSI= 44.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:52:28 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:53:28 [INFO] 
+── Ciclo #17 | 16:53:28 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:53:29 [INFO]   SOLUSDT      $   82.6500 | RSI= 45.8 | Score=0/6 | Vol x0.6 | 
+2026-03-27 16:53:29 [INFO]   DOGEUSDT     $    0.0900 | RSI= 50.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:53:29 [INFO]   AVAXUSDT     $    8.7400 | RSI= 43.5 | Score=1/6 | Vol x3.1 | 
+2026-03-27 16:53:30 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:53:30 [INFO]   LINKUSDT     $    8.5200 | RSI= 39.1 | Score=2/6 | Vol x18.2 | 
+2026-03-27 16:53:30 [INFO]   DOTUSDT      $    1.2790 | RSI= 44.7 | Score=1/6 | Vol x3.4 | 
+2026-03-27 16:53:31 [INFO]   ADAUSDT      $    0.2459 | RSI= 41.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 16:53:31 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:54:31 [INFO] 
+── Ciclo #18 | 16:54:31 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:54:32 [INFO]   SOLUSDT      $   82.7600 | RSI= 48.2 | Score=0/6 | Vol x0.7 | 
+2026-03-27 16:54:32 [INFO]   DOGEUSDT     $    0.0901 | RSI= 51.4 | Score=0/6 | Vol x0.3 | 
+2026-03-27 16:54:32 [INFO]   AVAXUSDT     $    8.7500 | RSI= 45.8 | Score=1/6 | Vol x3.5 | 
+2026-03-27 16:54:32 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:54:33 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.9 | Score=2/6 | Vol x24.3 | 
+2026-03-27 16:54:33 [INFO]   DOTUSDT      $    1.2790 | RSI= 44.7 | Score=1/6 | Vol x3.5 | 
+2026-03-27 16:54:33 [INFO]   ADAUSDT      $    0.2464 | RSI= 45.6 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:54:34 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:55:34 [INFO] 
+── Ciclo #19 | 16:55:34 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:55:34 [INFO]   SOLUSDT      $   82.8300 | RSI= 49.6 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:55:35 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.4 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:55:35 [INFO]   AVAXUSDT     $    8.7500 | RSI= 45.8 | Score=1/6 | Vol x3.8 | 
+2026-03-27 16:55:35 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:55:35 [INFO]   LINKUSDT     $    8.5400 | RSI= 42.9 | Score=1/6 | Vol x30.4 | 
+2026-03-27 16:55:36 [INFO]   DOTUSDT      $    1.2800 | RSI= 45.8 | Score=1/6 | Vol x3.6 | 
+2026-03-27 16:55:36 [INFO]   ADAUSDT      $    0.2464 | RSI= 45.6 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:55:36 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:56:37 [INFO] 
+── Ciclo #20 | 16:56:36 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:56:37 [INFO]   SOLUSDT      $   82.8200 | RSI= 49.4 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:56:37 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.4 | Score=0/6 | Vol x0.4 | 
+2026-03-27 16:56:38 [INFO]   AVAXUSDT     $    8.7500 | RSI= 45.8 | Score=1/6 | Vol x3.8 | 
+2026-03-27 16:56:38 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:56:38 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x33.4 | 
+2026-03-27 16:56:39 [INFO]   DOTUSDT      $    1.2810 | RSI= 46.9 | Score=1/6 | Vol x3.7 | 
+2026-03-27 16:56:39 [INFO]   ADAUSDT      $    0.2468 | RSI= 49.2 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:56:39 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:57:39 [INFO] 
+── Ciclo #21 | 16:57:39 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:57:40 [INFO]   SOLUSDT      $   82.7900 | RSI= 48.8 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:57:40 [INFO]   DOGEUSDT     $    0.0901 | RSI= 52.1 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:57:40 [INFO]   AVAXUSDT     $    8.7500 | RSI= 45.8 | Score=1/6 | Vol x3.8 | 
+2026-03-27 16:57:41 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:57:42 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x33.4 | 
+2026-03-27 16:57:42 [INFO]   DOTUSDT      $    1.2810 | RSI= 46.9 | Score=1/6 | Vol x3.7 | 
+2026-03-27 16:57:42 [INFO]   ADAUSDT      $    0.2468 | RSI= 49.2 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:57:42 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:58:43 [INFO] 
+── Ciclo #22 | 16:58:42 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:58:43 [INFO]   SOLUSDT      $   82.8400 | RSI= 49.8 | Score=0/6 | Vol x0.8 | 
+2026-03-27 16:58:43 [INFO]   DOGEUSDT     $    0.0901 | RSI= 52.1 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:58:44 [INFO]   AVAXUSDT     $    8.7500 | RSI= 45.8 | Score=1/6 | Vol x3.8 | 
+2026-03-27 16:58:44 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:58:44 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x33.4 | 
+2026-03-27 16:58:45 [INFO]   DOTUSDT      $    1.2810 | RSI= 46.9 | Score=1/6 | Vol x4.0 | 
+2026-03-27 16:58:45 [INFO]   ADAUSDT      $    0.2468 | RSI= 49.2 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:58:45 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 16:59:45 [INFO] 
+── Ciclo #23 | 16:59:45 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 16:59:46 [INFO]   SOLUSDT      $   82.8800 | RSI= 50.6 | Score=0/6 | Vol x0.9 | 
+2026-03-27 16:59:46 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.4 | Score=0/6 | Vol x0.5 | 
+2026-03-27 16:59:46 [INFO]   AVAXUSDT     $    8.7500 | RSI= 45.8 | Score=1/6 | Vol x3.8 | 
+2026-03-27 16:59:47 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 16:59:47 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x33.5 | 
+2026-03-27 16:59:47 [INFO]   DOTUSDT      $    1.2810 | RSI= 46.9 | Score=1/6 | Vol x4.0 | 
+2026-03-27 16:59:48 [INFO]   ADAUSDT      $    0.2468 | RSI= 49.2 | Score=0/6 | Vol x0.1 | 
+2026-03-27 16:59:48 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:00:49 [INFO] 
+── Ciclo #24 | 17:00:48 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:00:49 [INFO]   SOLUSDT      $   82.8200 | RSI= 44.7 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:00:49 [INFO]   DOGEUSDT     $    0.0901 | RSI= 46.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:00:50 [INFO]   AVAXUSDT     $    8.7500 | RSI= 47.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:00:50 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:00:50 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:00:51 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:00:51 [INFO]   ADAUSDT      $    0.2467 | RSI= 44.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:00:51 [INFO]   LTCUSDT      $   53.7200 | RSI= 40.6 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:01:52 [INFO] 
+── Ciclo #25 | 17:01:51 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:01:52 [INFO]   SOLUSDT      $   82.8400 | RSI= 45.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:01:52 [INFO]   DOGEUSDT     $    0.0901 | RSI= 46.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:01:52 [INFO]   AVAXUSDT     $    8.7500 | RSI= 47.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:01:53 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:01:53 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:01:53 [INFO]   DOTUSDT      $    1.2820 | RSI= 49.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:01:54 [INFO]   ADAUSDT      $    0.2468 | RSI= 45.6 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:01:55 [INFO]   LTCUSDT      $   53.6700 | RSI= 39.4 | Score=2/6 | Vol x0.3 | 
+2026-03-27 17:02:55 [INFO] 
+── Ciclo #26 | 17:02:55 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:02:55 [INFO]   SOLUSDT      $   82.9000 | RSI= 46.2 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:02:55 [INFO]   DOGEUSDT     $    0.0902 | RSI= 49.2 | Score=1/6 | Vol x0.1 | 
+2026-03-27 17:02:56 [INFO]   AVAXUSDT     $    8.7500 | RSI= 47.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:02:56 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:02:56 [INFO]   LINKUSDT     $    8.5600 | RSI= 47.6 | Score=1/6 | Vol x2.7 | 
+2026-03-27 17:02:57 [INFO]   DOTUSDT      $    1.2830 | RSI= 50.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:02:58 [INFO]   ADAUSDT      $    0.2471 | RSI= 48.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:02:58 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:03:58 [INFO] 
+── Ciclo #27 | 17:03:58 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:03:58 [INFO]   SOLUSDT      $   82.9000 | RSI= 46.2 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:03:59 [INFO]   DOGEUSDT     $    0.0902 | RSI= 47.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:03:59 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:03:59 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:04:00 [INFO]   LINKUSDT     $    8.5600 | RSI= 47.6 | Score=1/6 | Vol x2.7 | 
+2026-03-27 17:04:00 [INFO]   DOTUSDT      $    1.2830 | RSI= 50.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:04:00 [INFO]   ADAUSDT      $    0.2471 | RSI= 48.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:04:01 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:05:01 [INFO] 
+── Ciclo #28 | 17:05:01 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:05:01 [INFO]   SOLUSDT      $   82.8400 | RSI= 45.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:05:01 [INFO]   DOGEUSDT     $    0.0901 | RSI= 47.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:05:02 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:05:02 [INFO]   POLUSDT      $    0.0900 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:05:02 [INFO]   LINKUSDT     $    8.5600 | RSI= 47.6 | Score=1/6 | Vol x2.7 | 
+2026-03-27 17:05:03 [INFO]   DOTUSDT      $    1.2830 | RSI= 50.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:05:03 [INFO]   ADAUSDT      $    0.2471 | RSI= 48.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:05:03 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:06:04 [INFO] 
+── Ciclo #29 | 17:06:03 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:06:04 [INFO]   SOLUSDT      $   82.9300 | RSI= 46.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:06:04 [INFO]   DOGEUSDT     $    0.0902 | RSI= 47.9 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:06:05 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:06:05 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:06:05 [INFO]   LINKUSDT     $    8.5600 | RSI= 47.6 | Score=1/6 | Vol x2.7 | 
+2026-03-27 17:06:05 [INFO]   DOTUSDT      $    1.2830 | RSI= 50.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:06:06 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:06:06 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:07:06 [INFO] 
+── Ciclo #30 | 17:07:06 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:07:07 [INFO]   SOLUSDT      $   82.9200 | RSI= 46.7 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:07:07 [INFO]   DOGEUSDT     $    0.0902 | RSI= 47.9 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:07:08 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:07:08 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:07:08 [INFO]   LINKUSDT     $    8.5600 | RSI= 47.6 | Score=1/6 | Vol x2.7 | 
+2026-03-27 17:07:09 [INFO]   DOTUSDT      $    1.2830 | RSI= 50.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:07:10 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:07:10 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:08:11 [INFO] 
+── Ciclo #31 | 17:08:10 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:08:11 [INFO]   SOLUSDT      $   82.8000 | RSI= 44.3 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:08:11 [INFO]   DOGEUSDT     $    0.0901 | RSI= 46.5 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:08:12 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:08:12 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:08:12 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x5.0 | 
+2026-03-27 17:08:13 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:08:13 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:08:14 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:09:14 [INFO] 
+── Ciclo #32 | 17:09:14 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:09:14 [INFO]   SOLUSDT      $   82.8400 | RSI= 45.0 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:09:15 [INFO]   DOGEUSDT     $    0.0901 | RSI= 46.5 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:09:15 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:09:16 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:09:16 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x5.0 | 
+2026-03-27 17:09:16 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:09:17 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:09:18 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:10:18 [INFO] 
+── Ciclo #33 | 17:10:18 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:10:18 [INFO]   SOLUSDT      $   82.8300 | RSI= 44.9 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:10:19 [INFO]   DOGEUSDT     $    0.0901 | RSI= 46.2 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:10:19 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:10:19 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:10:19 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x5.0 | 
+2026-03-27 17:10:20 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:10:20 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:10:20 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:11:21 [INFO] 
+── Ciclo #34 | 17:11:20 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:11:21 [INFO]   SOLUSDT      $   82.8500 | RSI= 45.2 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:11:21 [INFO]   DOGEUSDT     $    0.0901 | RSI= 46.2 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:11:22 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:11:22 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:11:23 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x5.0 | 
+2026-03-27 17:11:23 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:11:23 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:11:24 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:12:24 [INFO] 
+── Ciclo #35 | 17:12:24 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:12:24 [INFO]   SOLUSDT      $   82.7900 | RSI= 44.1 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:12:25 [INFO]   DOGEUSDT     $    0.0901 | RSI= 45.7 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:12:25 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:12:25 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:12:26 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x5.0 | 
+2026-03-27 17:12:26 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:12:26 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:12:26 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:13:27 [INFO] 
+── Ciclo #36 | 17:13:26 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:13:27 [INFO]   SOLUSDT      $   82.8200 | RSI= 44.7 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:13:27 [INFO]   DOGEUSDT     $    0.0901 | RSI= 45.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:13:28 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:13:28 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:13:29 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x5.0 | 
+2026-03-27 17:13:29 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:13:29 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:13:30 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:14:31 [INFO] 
+── Ciclo #37 | 17:14:30 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:14:32 [INFO]   SOLUSDT      $   82.8100 | RSI= 44.5 | Score=0/6 | Vol x0.7 | 
+2026-03-27 17:14:32 [INFO]   DOGEUSDT     $    0.0901 | RSI= 45.7 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:14:32 [INFO]   AVAXUSDT     $    8.7700 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:14:32 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=1/6 | Vol x2.5 | 
+2026-03-27 17:14:33 [INFO]   LINKUSDT     $    8.5500 | RSI= 45.0 | Score=1/6 | Vol x5.0 | 
+2026-03-27 17:14:33 [INFO]   DOTUSDT      $    1.2810 | RSI= 47.9 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:14:33 [INFO]   ADAUSDT      $    0.2466 | RSI= 44.1 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:14:34 [INFO]   LTCUSDT      $   53.6400 | RSI= 38.8 | Score=2/6 | Vol x0.4 | 
+2026-03-27 17:15:34 [INFO] 
+── Ciclo #38 | 17:15:34 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:15:34 [INFO]   SOLUSDT      $   82.8200 | RSI= 45.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:15:35 [INFO]   DOGEUSDT     $    0.0901 | RSI= 50.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:15:35 [INFO]   AVAXUSDT     $    8.7700 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:15:35 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:15:35 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:15:36 [INFO]   DOTUSDT      $    1.2810 | RSI= 50.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:15:36 [INFO]   ADAUSDT      $    0.2467 | RSI= 45.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:15:36 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:16:37 [INFO] 
+── Ciclo #39 | 17:16:36 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:16:37 [INFO]   SOLUSDT      $   82.8600 | RSI= 46.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:16:37 [INFO]   DOGEUSDT     $    0.0901 | RSI= 51.6 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:16:38 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:16:38 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:16:38 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:16:39 [INFO]   DOTUSDT      $    1.2810 | RSI= 50.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:16:39 [INFO]   ADAUSDT      $    0.2470 | RSI= 47.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:16:39 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:17:39 [INFO] 
+── Ciclo #40 | 17:17:39 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:17:40 [INFO]   SOLUSDT      $   82.8300 | RSI= 45.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:17:40 [INFO]   DOGEUSDT     $    0.0901 | RSI= 50.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:17:40 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:17:41 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:17:41 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:17:41 [INFO]   DOTUSDT      $    1.2810 | RSI= 50.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:17:42 [INFO]   ADAUSDT      $    0.2468 | RSI= 45.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:17:42 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:18:42 [INFO] 
+── Ciclo #41 | 17:18:42 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:18:42 [INFO]   SOLUSDT      $   82.7800 | RSI= 44.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:18:43 [INFO]   DOGEUSDT     $    0.0900 | RSI= 47.5 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:18:43 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:18:43 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:18:44 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:18:44 [INFO]   DOTUSDT      $    1.2810 | RSI= 50.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:18:44 [INFO]   ADAUSDT      $    0.2466 | RSI= 44.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:18:45 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:19:45 [INFO] 
+── Ciclo #42 | 17:19:45 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:19:46 [INFO]   SOLUSDT      $   82.7700 | RSI= 44.7 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:19:46 [INFO]   DOGEUSDT     $    0.0900 | RSI= 48.3 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:19:46 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:19:47 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:19:47 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:19:47 [INFO]   DOTUSDT      $    1.2810 | RSI= 50.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:19:48 [INFO]   ADAUSDT      $    0.2466 | RSI= 44.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:19:48 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:20:48 [INFO] 
+── Ciclo #43 | 17:20:48 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:20:49 [INFO]   SOLUSDT      $   82.7600 | RSI= 44.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:20:49 [INFO]   DOGEUSDT     $    0.0900 | RSI= 48.6 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:20:49 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:20:49 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:20:50 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:20:50 [INFO]   DOTUSDT      $    1.2810 | RSI= 50.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:20:50 [INFO]   ADAUSDT      $    0.2466 | RSI= 44.1 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:20:51 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:21:51 [INFO] 
+── Ciclo #44 | 17:21:51 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:21:51 [INFO]   SOLUSDT      $   82.7500 | RSI= 44.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:21:52 [INFO]   DOGEUSDT     $    0.0900 | RSI= 47.8 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:21:52 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:21:52 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:21:52 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:21:53 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:21:53 [INFO]   ADAUSDT      $    0.2466 | RSI= 44.1 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:21:53 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:22:54 [INFO] 
+── Ciclo #45 | 17:22:53 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:22:55 [INFO]   SOLUSDT      $   82.7500 | RSI= 44.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:22:55 [INFO]   DOGEUSDT     $    0.0899 | RSI= 46.2 | Score=0/6 | Vol x0.7 | 
+2026-03-27 17:22:55 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:22:55 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:22:56 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:22:56 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:22:56 [INFO]   ADAUSDT      $    0.2466 | RSI= 44.1 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:22:57 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:23:57 [INFO] 
+── Ciclo #46 | 17:23:57 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:23:57 [INFO]   SOLUSDT      $   82.7200 | RSI= 43.8 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:23:58 [INFO]   DOGEUSDT     $    0.0899 | RSI= 45.3 | Score=0/6 | Vol x0.7 | 
+2026-03-27 17:23:58 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:23:58 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:23:58 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:23:59 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:23:59 [INFO]   ADAUSDT      $    0.2466 | RSI= 44.1 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:23:59 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:25:00 [INFO] 
+── Ciclo #47 | 17:24:59 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:25:00 [INFO]   SOLUSDT      $   82.7100 | RSI= 43.6 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:25:00 [INFO]   DOGEUSDT     $    0.0900 | RSI= 46.7 | Score=0/6 | Vol x0.7 | 
+2026-03-27 17:25:01 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:25:01 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:25:01 [INFO]   LINKUSDT     $    8.5500 | RSI= 38.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:25:02 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:25:02 [INFO]   ADAUSDT      $    0.2462 | RSI= 41.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:25:03 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:26:03 [INFO] 
+── Ciclo #48 | 17:26:03 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:26:03 [INFO]   SOLUSDT      $   82.6000 | RSI= 41.8 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:26:04 [INFO]   DOGEUSDT     $    0.0898 | RSI= 43.9 | Score=0/6 | Vol x0.9 | 
+2026-03-27 17:26:04 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:26:04 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x1.2 | 
+2026-03-27 17:26:05 [INFO]   LINKUSDT     $    8.5100 | RSI= 31.8 | Score=2/6 | Vol x1.0 | 
+2026-03-27 17:26:05 [INFO]   DOTUSDT      $    1.2780 | RSI= 46.9 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:26:05 [INFO]   ADAUSDT      $    0.2461 | RSI= 40.6 | Score=1/6 | Vol x0.3 | 
+2026-03-27 17:26:05 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:27:06 [INFO] 
+── Ciclo #49 | 17:27:05 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:27:06 [INFO]   SOLUSDT      $   82.5800 | RSI= 41.4 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:27:06 [INFO]   DOGEUSDT     $    0.0898 | RSI= 44.1 | Score=0/6 | Vol x0.9 | 
+2026-03-27 17:27:07 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:27:07 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x1.2 | 
+2026-03-27 17:27:08 [INFO]   LINKUSDT     $    8.5100 | RSI= 31.8 | Score=3/6 | Vol x2.9 | 
+2026-03-27 17:27:08 [INFO]   DOTUSDT      $    1.2760 | RSI= 45.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:27:08 [INFO]   ADAUSDT      $    0.2455 | RSI= 37.1 | Score=1/6 | Vol x0.3 | 
+2026-03-27 17:27:09 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:27:10 [ERROR]   Error abriendo LINKUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:28:10 [INFO] 
+── Ciclo #50 | 17:28:10 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:28:11 [INFO]   SOLUSDT      $   82.5700 | RSI= 41.3 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:28:11 [INFO]   DOGEUSDT     $    0.0898 | RSI= 44.1 | Score=0/6 | Vol x0.9 | 
+2026-03-27 17:28:11 [INFO]   AVAXUSDT     $    8.7800 | RSI= 52.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:28:11 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x1.2 | 
+2026-03-27 17:28:12 [INFO]   LINKUSDT     $    8.5100 | RSI= 31.8 | Score=3/6 | Vol x2.9 | 
+2026-03-27 17:28:12 [INFO]   DOTUSDT      $    1.2760 | RSI= 45.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:28:12 [INFO]   ADAUSDT      $    0.2455 | RSI= 37.1 | Score=1/6 | Vol x0.3 | 
+2026-03-27 17:28:13 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:28:14 [ERROR]   Error abriendo LINKUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:29:15 [INFO] 
+── Ciclo #51 | 17:29:14 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:29:15 [INFO]   SOLUSDT      $   82.5200 | RSI= 40.5 | Score=0/6 | Vol x0.6 | 
+2026-03-27 17:29:15 [INFO]   DOGEUSDT     $    0.0897 | RSI= 41.4 | Score=1/6 | Vol x1.0 | 
+2026-03-27 17:29:16 [INFO]   AVAXUSDT     $    8.7300 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:29:16 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x1.2 | 
+2026-03-27 17:29:16 [INFO]   LINKUSDT     $    8.5100 | RSI= 31.8 | Score=3/6 | Vol x2.9 | 
+2026-03-27 17:29:17 [INFO]   DOTUSDT      $    1.2750 | RSI= 44.2 | Score=1/6 | Vol x0.3 | 
+2026-03-27 17:29:17 [INFO]   ADAUSDT      $    0.2452 | RSI= 35.6 | Score=1/6 | Vol x0.4 | 
+2026-03-27 17:29:17 [INFO]   LTCUSDT      $   53.6400 | RSI= 32.5 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:29:18 [ERROR]   Error abriendo LINKUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:30:18 [INFO] 
+── Ciclo #52 | 17:30:18 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:30:19 [INFO]   SOLUSDT      $   82.5500 | RSI= 36.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:30:19 [INFO]   DOGEUSDT     $    0.0898 | RSI= 36.8 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:30:19 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:30:20 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:30:20 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:30:20 [INFO]   DOTUSDT      $    1.2750 | RSI= 37.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:30:21 [INFO]   ADAUSDT      $    0.2454 | RSI= 27.4 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:30:21 [INFO]   LTCUSDT      $   53.6400 | RSI= 28.7 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:31:22 [INFO] 
+── Ciclo #53 | 17:31:21 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:31:22 [INFO]   SOLUSDT      $   82.5500 | RSI= 36.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:31:22 [INFO]   DOGEUSDT     $    0.0898 | RSI= 38.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 17:31:23 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:31:23 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:31:24 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:31:24 [INFO]   DOTUSDT      $    1.2780 | RSI= 40.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:31:24 [INFO]   ADAUSDT      $    0.2453 | RSI= 27.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:31:25 [INFO]   LTCUSDT      $   53.6400 | RSI= 28.7 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:32:26 [INFO] 
+── Ciclo #54 | 17:32:25 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:32:26 [INFO]   SOLUSDT      $   82.4500 | RSI= 35.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:32:26 [INFO]   DOGEUSDT     $    0.0897 | RSI= 35.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 17:32:26 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:32:27 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:32:27 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:32:27 [INFO]   DOTUSDT      $    1.2780 | RSI= 40.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:32:28 [INFO]   ADAUSDT      $    0.2456 | RSI= 29.7 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:32:28 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:33:28 [INFO] 
+── Ciclo #55 | 17:33:28 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:33:29 [INFO]   SOLUSDT      $   82.4500 | RSI= 35.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:33:29 [INFO]   DOGEUSDT     $    0.0897 | RSI= 35.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:33:30 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:33:30 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:33:30 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:33:31 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:33:32 [INFO]   ADAUSDT      $    0.2456 | RSI= 29.7 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:33:32 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:34:32 [INFO] 
+── Ciclo #56 | 17:34:32 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:34:32 [INFO]   SOLUSDT      $   82.4500 | RSI= 35.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:34:33 [INFO]   DOGEUSDT     $    0.0897 | RSI= 34.9 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:34:33 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:34:33 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:34:34 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:34:34 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:34:34 [INFO]   ADAUSDT      $    0.2456 | RSI= 29.7 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:34:35 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:35:35 [INFO] 
+── Ciclo #57 | 17:35:35 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:35:35 [INFO]   SOLUSDT      $   82.4300 | RSI= 35.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:35:35 [INFO]   DOGEUSDT     $    0.0897 | RSI= 34.7 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:35:36 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:35:37 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:35:37 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:35:37 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:35:38 [INFO]   ADAUSDT      $    0.2455 | RSI= 28.6 | Score=2/6 | Vol x0.1 | 
+2026-03-27 17:35:38 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:36:38 [INFO] 
+── Ciclo #58 | 17:36:38 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:36:38 [INFO]   SOLUSDT      $   82.4200 | RSI= 34.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:36:39 [INFO]   DOGEUSDT     $    0.0897 | RSI= 34.7 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:36:39 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:36:39 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:36:40 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:36:41 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:36:41 [INFO]   ADAUSDT      $    0.2455 | RSI= 28.6 | Score=2/6 | Vol x0.1 | 
+2026-03-27 17:36:41 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:37:41 [INFO] 
+── Ciclo #59 | 17:37:41 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:37:42 [INFO]   SOLUSDT      $   82.4200 | RSI= 34.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:37:42 [INFO]   DOGEUSDT     $    0.0897 | RSI= 34.7 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:37:42 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:37:43 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:37:43 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:37:43 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:37:44 [INFO]   ADAUSDT      $    0.2455 | RSI= 28.6 | Score=2/6 | Vol x0.2 | 
+2026-03-27 17:37:44 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:38:44 [INFO] 
+── Ciclo #60 | 17:38:44 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:38:44 [INFO]   SOLUSDT      $   82.4500 | RSI= 35.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:38:45 [INFO]   DOGEUSDT     $    0.0897 | RSI= 35.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:38:45 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:38:45 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:38:46 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:38:46 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:38:46 [INFO]   ADAUSDT      $    0.2455 | RSI= 28.6 | Score=2/6 | Vol x0.2 | 
+2026-03-27 17:38:47 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:39:47 [INFO] 
+── Ciclo #61 | 17:39:47 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:39:47 [INFO]   SOLUSDT      $   82.4500 | RSI= 35.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:39:47 [INFO]   DOGEUSDT     $    0.0897 | RSI= 35.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:39:48 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:39:48 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:39:48 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:39:49 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:39:49 [INFO]   ADAUSDT      $    0.2455 | RSI= 28.6 | Score=2/6 | Vol x0.2 | 
+2026-03-27 17:39:49 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:40:50 [INFO] 
+── Ciclo #62 | 17:40:49 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:40:50 [INFO]   SOLUSDT      $   82.5400 | RSI= 36.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:40:50 [INFO]   DOGEUSDT     $    0.0898 | RSI= 37.4 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:40:51 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:40:51 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:40:51 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:40:51 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:40:52 [INFO]   ADAUSDT      $    0.2458 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 17:40:52 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:41:52 [INFO] 
+── Ciclo #63 | 17:41:52 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:41:53 [INFO]   SOLUSDT      $   82.5200 | RSI= 36.2 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:41:53 [INFO]   DOGEUSDT     $    0.0898 | RSI= 37.4 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:41:53 [INFO]   AVAXUSDT     $    8.7400 | RSI= 34.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:41:54 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:41:54 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:41:54 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:41:54 [INFO]   ADAUSDT      $    0.2458 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 17:41:55 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:42:55 [INFO] 
+── Ciclo #64 | 17:42:55 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:42:56 [INFO]   SOLUSDT      $   82.5200 | RSI= 36.2 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:42:56 [INFO]   DOGEUSDT     $    0.0898 | RSI= 36.8 | Score=1/6 | Vol x0.2 | 
+2026-03-27 17:42:57 [INFO]   AVAXUSDT     $    8.7500 | RSI= 37.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:42:57 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:42:57 [INFO]   LINKUSDT     $    8.5100 | RSI= 21.1 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:42:57 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:42:58 [INFO]   ADAUSDT      $    0.2458 | RSI= 31.8 | Score=2/6 | Vol x0.3 | 
+2026-03-27 17:42:58 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:43:58 [INFO] 
+── Ciclo #65 | 17:43:58 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:43:59 [INFO]   SOLUSDT      $   82.5700 | RSI= 37.2 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:43:59 [INFO]   DOGEUSDT     $    0.0898 | RSI= 39.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:43:59 [INFO]   AVAXUSDT     $    8.7500 | RSI= 37.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:44:00 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:44:00 [INFO]   LINKUSDT     $    8.5200 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:44:01 [INFO]   DOTUSDT      $    1.2760 | RSI= 38.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:44:01 [INFO]   ADAUSDT      $    0.2460 | RSI= 33.8 | Score=1/6 | Vol x0.3 | 
+2026-03-27 17:44:02 [INFO]   LTCUSDT      $   53.4500 | RSI= 25.6 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:45:02 [INFO] 
+── Ciclo #66 | 17:45:02 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:45:03 [INFO]   SOLUSDT      $   82.5600 | RSI= 44.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:45:03 [INFO]   DOGEUSDT     $    0.0898 | RSI= 37.8 | Score=1/6 | Vol x0.3 | 
+2026-03-27 17:45:03 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:45:03 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:45:04 [INFO]   LINKUSDT     $    8.5100 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:45:04 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:45:04 [INFO]   ADAUSDT      $    0.2458 | RSI= 39.6 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:45:05 [INFO]   LTCUSDT      $   53.4500 | RSI= 27.9 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:46:05 [INFO] 
+── Ciclo #67 | 17:46:05 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:46:05 [INFO]   SOLUSDT      $   82.5600 | RSI= 44.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:46:06 [INFO]   DOGEUSDT     $    0.0898 | RSI= 45.4 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:46:06 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:46:07 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:46:07 [INFO]   LINKUSDT     $    8.5100 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:46:07 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:46:08 [INFO]   ADAUSDT      $    0.2459 | RSI= 40.7 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:46:08 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:46:09 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:47:10 [INFO] 
+── Ciclo #68 | 17:47:09 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:47:10 [INFO]   SOLUSDT      $   82.5800 | RSI= 45.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:47:10 [INFO]   DOGEUSDT     $    0.0898 | RSI= 46.1 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:47:11 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:47:12 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:47:12 [INFO]   LINKUSDT     $    8.5100 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:47:12 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:47:13 [INFO]   ADAUSDT      $    0.2459 | RSI= 40.7 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:47:13 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:47:14 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:48:14 [INFO] 
+── Ciclo #69 | 17:48:14 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:48:15 [INFO]   SOLUSDT      $   82.6800 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:48:15 [INFO]   DOGEUSDT     $    0.0899 | RSI= 48.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:48:15 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:48:16 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:48:16 [INFO]   LINKUSDT     $    8.5100 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:48:16 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:48:16 [INFO]   ADAUSDT      $    0.2459 | RSI= 40.7 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:48:17 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:48:18 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:49:18 [INFO] 
+── Ciclo #70 | 17:49:18 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:49:18 [INFO]   SOLUSDT      $   82.7300 | RSI= 48.7 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:49:19 [INFO]   DOGEUSDT     $    0.0900 | RSI= 50.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:49:19 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:49:19 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:49:20 [INFO]   LINKUSDT     $    8.5100 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:49:20 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:49:20 [INFO]   ADAUSDT      $    0.2459 | RSI= 40.7 | Score=1/6 | Vol x0.0 | 
+2026-03-27 17:49:20 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:49:21 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:50:22 [INFO] 
+── Ciclo #71 | 17:50:21 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:50:22 [INFO]   SOLUSDT      $   82.7100 | RSI= 48.2 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:50:22 [INFO]   DOGEUSDT     $    0.0900 | RSI= 50.6 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:50:23 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:50:23 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:50:23 [INFO]   LINKUSDT     $    8.5100 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:50:23 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:50:24 [INFO]   ADAUSDT      $    0.2461 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:50:24 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:50:25 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:51:26 [INFO] 
+── Ciclo #72 | 17:51:25 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:51:26 [INFO]   SOLUSDT      $   82.6900 | RSI= 47.7 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:51:26 [INFO]   DOGEUSDT     $    0.0900 | RSI= 50.6 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:51:27 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:51:27 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:51:27 [INFO]   LINKUSDT     $    8.5100 | RSI= 25.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:51:27 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:51:28 [INFO]   ADAUSDT      $    0.2461 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:51:28 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:51:29 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:52:29 [INFO] 
+── Ciclo #73 | 17:52:29 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:52:30 [INFO]   SOLUSDT      $   82.7700 | RSI= 49.6 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:52:30 [INFO]   DOGEUSDT     $    0.0900 | RSI= 51.4 | Score=0/6 | Vol x0.3 | 
+2026-03-27 17:52:30 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:52:30 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:52:31 [INFO]   LINKUSDT     $    8.5200 | RSI= 29.4 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:52:31 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:52:32 [INFO]   ADAUSDT      $    0.2461 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:52:32 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:52:33 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:53:34 [INFO] 
+── Ciclo #74 | 17:53:33 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:53:34 [INFO]   SOLUSDT      $   82.7800 | RSI= 49.8 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:53:34 [INFO]   DOGEUSDT     $    0.0900 | RSI= 51.9 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:53:34 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:53:35 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:53:35 [INFO]   LINKUSDT     $    8.5200 | RSI= 29.4 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:53:35 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:53:36 [INFO]   ADAUSDT      $    0.2463 | RSI= 44.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:53:36 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:53:38 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:54:38 [INFO] 
+── Ciclo #75 | 17:54:38 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:54:38 [INFO]   SOLUSDT      $   82.7900 | RSI= 50.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:54:39 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.2 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:54:39 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:54:39 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:54:40 [INFO]   LINKUSDT     $    8.5200 | RSI= 29.4 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:54:40 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:54:40 [INFO]   ADAUSDT      $    0.2463 | RSI= 44.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:54:40 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:54:41 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:55:42 [INFO] 
+── Ciclo #76 | 17:55:41 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:55:42 [INFO]   SOLUSDT      $   82.8100 | RSI= 50.4 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:55:42 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.4 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:55:43 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:55:43 [INFO]   POLUSDT      $    0.0907 | RSI= 88.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:55:44 [INFO]   LINKUSDT     $    8.5200 | RSI= 29.4 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:55:44 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:55:44 [INFO]   ADAUSDT      $    0.2463 | RSI= 44.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:55:45 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:55:46 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:56:47 [INFO] 
+── Ciclo #77 | 17:56:46 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:56:47 [INFO]   SOLUSDT      $   82.7900 | RSI= 50.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:56:47 [INFO]   DOGEUSDT     $    0.0901 | RSI= 52.7 | Score=0/6 | Vol x0.4 | 
+2026-03-27 17:56:48 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:56:48 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.9 | 
+2026-03-27 17:56:48 [INFO]   LINKUSDT     $    8.5200 | RSI= 29.4 | Score=2/6 | Vol x0.0 | 
+2026-03-27 17:56:49 [INFO]   DOTUSDT      $    1.2800 | RSI= 48.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:56:50 [INFO]   ADAUSDT      $    0.2463 | RSI= 44.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:56:50 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:56:51 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:57:52 [INFO] 
+── Ciclo #78 | 17:57:51 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:57:52 [INFO]   SOLUSDT      $   82.7900 | RSI= 50.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:57:52 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:57:52 [INFO]   AVAXUSDT     $    8.7500 | RSI= 42.9 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:57:53 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.9 | 
+2026-03-27 17:57:53 [INFO]   LINKUSDT     $    8.5300 | RSI= 33.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:57:53 [INFO]   DOTUSDT      $    1.2840 | RSI= 53.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:57:54 [INFO]   ADAUSDT      $    0.2464 | RSI= 45.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:57:54 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:57:56 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 17:58:57 [INFO] 
+── Ciclo #79 | 17:58:56 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 17:58:57 [INFO]   SOLUSDT      $   82.8100 | RSI= 50.4 | Score=0/6 | Vol x0.2 | 
+2026-03-27 17:58:57 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.6 | Score=0/6 | Vol x0.5 | 
+2026-03-27 17:58:58 [INFO]   AVAXUSDT     $    8.7700 | RSI= 47.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:58:58 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.9 | 
+2026-03-27 17:58:58 [INFO]   LINKUSDT     $    8.5300 | RSI= 33.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 17:58:58 [INFO]   DOTUSDT      $    1.2840 | RSI= 53.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:58:59 [INFO]   ADAUSDT      $    0.2463 | RSI= 44.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 17:58:59 [INFO]   LTCUSDT      $   53.5000 | RSI= 30.1 | Score=3/6 | Vol x0.0 | 
+2026-03-27 17:59:00 [ERROR]   Error abriendo LTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2026-03-27 18:00:00 [INFO] 
+── Ciclo #80 | 18:00:00 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:00:01 [INFO]   SOLUSDT      $   82.8000 | RSI= 50.2 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:00:01 [INFO]   DOGEUSDT     $    0.0901 | RSI= 53.9 | Score=0/6 | Vol x0.5 | 
+2026-03-27 18:00:01 [INFO]   AVAXUSDT     $    8.7800 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:00:02 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.9 | 
+2026-03-27 18:00:02 [INFO]   LINKUSDT     $    8.5300 | RSI= 33.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:00:02 [INFO]   DOTUSDT      $    1.2840 | RSI= 53.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:00:02 [INFO]   ADAUSDT      $    0.2463 | RSI= 44.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:00:03 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:01:03 [INFO] 
+── Ciclo #81 | 18:01:03 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:01:03 [INFO]   SOLUSDT      $   82.7800 | RSI= 60.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:01:04 [INFO]   DOGEUSDT     $    0.0901 | RSI= 55.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:01:04 [INFO]   AVAXUSDT     $    8.7800 | RSI= 57.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:01:04 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:01:05 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:01:05 [INFO]   DOTUSDT      $    1.2840 | RSI= 50.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:01:05 [INFO]   ADAUSDT      $    0.2462 | RSI= 44.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:01:05 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:02:06 [INFO] 
+── Ciclo #82 | 18:02:05 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:02:06 [INFO]   SOLUSDT      $   82.7800 | RSI= 60.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:02:06 [INFO]   DOGEUSDT     $    0.0901 | RSI= 55.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:02:07 [INFO]   AVAXUSDT     $    8.7800 | RSI= 57.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:02:07 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:02:07 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:02:08 [INFO]   DOTUSDT      $    1.2840 | RSI= 50.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:02:08 [INFO]   ADAUSDT      $    0.2464 | RSI= 46.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:02:08 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:03:08 [INFO] 
+── Ciclo #83 | 18:03:08 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:03:09 [INFO]   SOLUSDT      $   82.8800 | RSI= 62.6 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:03:09 [INFO]   DOGEUSDT     $    0.0902 | RSI= 58.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:03:09 [INFO]   AVAXUSDT     $    8.7700 | RSI= 54.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:03:10 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:03:10 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:03:10 [INFO]   DOTUSDT      $    1.2840 | RSI= 50.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:03:11 [INFO]   ADAUSDT      $    0.2464 | RSI= 46.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:03:11 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:04:11 [INFO] 
+── Ciclo #84 | 18:04:11 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:04:12 [INFO]   SOLUSDT      $   82.9100 | RSI= 63.2 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:04:12 [INFO]   DOGEUSDT     $    0.0902 | RSI= 58.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:04:12 [INFO]   AVAXUSDT     $    8.7700 | RSI= 54.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:04:12 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:04:13 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:04:13 [INFO]   DOTUSDT      $    1.2840 | RSI= 50.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:04:13 [INFO]   ADAUSDT      $    0.2464 | RSI= 46.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:04:14 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:05:14 [INFO] 
+── Ciclo #85 | 18:05:14 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:05:15 [INFO]   SOLUSDT      $   82.9200 | RSI= 63.4 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:05:15 [INFO]   DOGEUSDT     $    0.0902 | RSI= 58.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:05:16 [INFO]   AVAXUSDT     $    8.7700 | RSI= 54.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:05:16 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:05:17 [INFO]   LINKUSDT     $    8.5300 | RSI= 40.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:05:18 [INFO]   DOTUSDT      $    1.2840 | RSI= 50.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:05:18 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:05:18 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:06:18 [INFO] 
+── Ciclo #86 | 18:06:18 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:06:19 [INFO]   SOLUSDT      $   82.9000 | RSI= 63.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:06:19 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:06:19 [INFO]   AVAXUSDT     $    8.7700 | RSI= 54.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:06:20 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:06:20 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:06:21 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:06:22 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:06:22 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:07:22 [INFO] 
+── Ciclo #87 | 18:07:22 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:07:23 [INFO]   SOLUSDT      $   82.9000 | RSI= 63.0 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:07:23 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.0 | Score=0/6 | Vol x0.7 | 
+2026-03-27 18:07:23 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:07:24 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:07:24 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:07:24 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:07:24 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:07:25 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:08:25 [INFO] 
+── Ciclo #88 | 18:08:25 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:08:25 [INFO]   SOLUSDT      $   82.9200 | RSI= 63.4 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:08:26 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.0 | Score=0/6 | Vol x0.7 | 
+2026-03-27 18:08:26 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:08:26 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:08:27 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:08:27 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:08:27 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:08:27 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:08:36 [INFO] 
+Bot detenido por el usuario (Ctrl+C).
+2026-03-27 18:08:36 [INFO] =======================================================
+2026-03-27 18:08:36 [INFO]   RESUMEN DE APRENDIZAJE
+2026-03-27 18:08:36 [INFO]   Total trades  : 0
+2026-03-27 18:08:36 [INFO]   Sin trades aún
+2026-03-27 18:08:36 [INFO]   Parámetros actuales: {'rsi_period': 14, 'rsi_oversold': 32, 'rsi_overbought': 68, 'fast_ema': 9, 'slow_ema': 21, 'bb_period': 20, 'bb_std': 2.0, 'macd_fast': 12, 'macd_slow': 26, 'macd_signal': 9, 'atr_period': 14, 'min_score': 3, 'volume_factor': 1.2}
+2026-03-27 18:08:36 [INFO] =======================================================
+2026-03-27 18:08:41 [INFO] =======================================================
+2026-03-27 18:08:41 [INFO]   BOT ADAPTATIVO — ALTCOINS VOLÁTILES
+2026-03-27 18:08:41 [INFO]   Monedas  : SOLUSDT, DOGEUSDT, AVAXUSDT, POLUSDT, LINKUSDT, DOTUSDT, ADAUSDT, LTCUSDT
+2026-03-27 18:08:41 [INFO]   Intervalo: 15m  |  Modo: TESTNET
+2026-03-27 18:08:41 [INFO]   Max posiciones simultáneas: 3
+2026-03-27 18:08:41 [INFO] =======================================================
+2026-03-27 18:08:42 [INFO] Conectado al TESTNET de Binance (paper trading)
+2026-03-27 18:08:42 [INFO] =======================================================
+2026-03-27 18:08:42 [INFO]   RESUMEN DE APRENDIZAJE
+2026-03-27 18:08:42 [INFO]   Total trades  : 0
+2026-03-27 18:08:42 [INFO]   Sin trades aún
+2026-03-27 18:08:42 [INFO]   Parámetros actuales: {'rsi_period': 14, 'rsi_oversold': 32, 'rsi_overbought': 68, 'fast_ema': 9, 'slow_ema': 21, 'bb_period': 20, 'bb_std': 2.0, 'macd_fast': 12, 'macd_slow': 26, 'macd_signal': 9, 'atr_period': 14, 'min_score': 3, 'volume_factor': 1.2}
+2026-03-27 18:08:42 [INFO] =======================================================
+2026-03-27 18:08:43 [INFO] 
+── Ciclo #1 | 18:08:42 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:08:43 [INFO]   SOLUSDT      $   82.9200 | RSI= 63.4 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:08:43 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.4 | Score=1/6 | Vol x0.7 | 
+2026-03-27 18:08:44 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:08:44 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:08:44 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:08:45 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:08:45 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:08:45 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:09:46 [INFO] 
+── Ciclo #2 | 18:09:45 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:09:46 [INFO]   SOLUSDT      $   82.9200 | RSI= 63.4 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:09:46 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.8 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:09:46 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:09:47 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:09:48 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:09:48 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:09:48 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:09:48 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:10:49 [INFO] 
+── Ciclo #3 | 18:10:48 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:10:49 [INFO]   SOLUSDT      $   82.8800 | RSI= 62.6 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:10:49 [INFO]   DOGEUSDT     $    0.0903 | RSI= 60.2 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:10:50 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:10:50 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:10:50 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:10:51 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:10:51 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:10:51 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:11:52 [INFO] 
+── Ciclo #4 | 18:11:51 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:11:52 [INFO]   SOLUSDT      $   82.8900 | RSI= 62.8 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:11:52 [INFO]   DOGEUSDT     $    0.0903 | RSI= 60.4 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:11:52 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:11:53 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:11:54 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:11:54 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:11:54 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:11:55 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:12:55 [INFO] 
+── Ciclo #5 | 18:12:55 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:12:55 [INFO]   SOLUSDT      $   82.8600 | RSI= 62.2 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:12:55 [INFO]   DOGEUSDT     $    0.0903 | RSI= 60.8 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:12:56 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:12:56 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:12:56 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:12:57 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:12:57 [INFO]   ADAUSDT      $    0.2465 | RSI= 47.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:12:57 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:13:58 [INFO] 
+── Ciclo #6 | 18:13:57 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:13:58 [INFO]   SOLUSDT      $   82.9600 | RSI= 64.1 | Score=0/6 | Vol x0.6 | 
+2026-03-27 18:13:58 [INFO]   DOGEUSDT     $    0.0903 | RSI= 60.0 | Score=2/6 | Vol x1.2 | 
+2026-03-27 18:13:59 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:13:59 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:13:59 [INFO]   LINKUSDT     $    8.5500 | RSI= 47.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:13:59 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:14:00 [INFO]   ADAUSDT      $    0.2462 | RSI= 44.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:14:00 [INFO]   LTCUSDT      $   53.5000 | RSI= 32.0 | Score=2/6 | Vol x0.0 | 
+2026-03-27 18:15:00 [INFO] 
+── Ciclo #7 | 18:15:00 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:15:01 [INFO]   SOLUSDT      $   82.9500 | RSI= 63.9 | Score=0/6 | Vol x0.6 | 
+2026-03-27 18:15:01 [INFO]   DOGEUSDT     $    0.0903 | RSI= 60.4 | Score=2/6 | Vol x1.2 | 
+2026-03-27 18:15:02 [INFO]   AVAXUSDT     $    8.7900 | RSI= 59.1 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:15:03 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:15:03 [INFO]   LINKUSDT     $    8.5400 | RSI= 43.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:15:03 [INFO]   DOTUSDT      $    1.2850 | RSI= 51.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:15:04 [INFO]   ADAUSDT      $    0.2463 | RSI= 45.6 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:15:04 [INFO]   LTCUSDT      $   53.5700 | RSI= 38.3 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:16:04 [INFO] 
+── Ciclo #8 | 18:16:04 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:16:05 [INFO]   SOLUSDT      $   83.0100 | RSI= 68.2 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:16:05 [INFO]   DOGEUSDT     $    0.0903 | RSI= 61.6 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:16:05 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:16:05 [INFO]   POLUSDT      $    0.0906 | RSI= 80.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:16:06 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:16:06 [INFO]   DOTUSDT      $    1.2860 | RSI= 54.4 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:16:06 [INFO]   ADAUSDT      $    0.2463 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:16:07 [INFO]   LTCUSDT      $   53.5700 | RSI= 38.3 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:17:07 [INFO] 
+── Ciclo #9 | 18:17:07 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:17:07 [INFO]   SOLUSDT      $   82.9900 | RSI= 67.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:17:08 [INFO]   DOGEUSDT     $    0.0902 | RSI= 60.1 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:17:08 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:17:09 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:17:09 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:17:09 [INFO]   DOTUSDT      $    1.2860 | RSI= 54.4 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:17:10 [INFO]   ADAUSDT      $    0.2465 | RSI= 48.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:17:10 [INFO]   LTCUSDT      $   53.5400 | RSI= 37.5 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:18:10 [INFO] 
+── Ciclo #10 | 18:18:10 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:18:11 [INFO]   SOLUSDT      $   82.9500 | RSI= 67.2 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:18:11 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.8 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:18:11 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:18:11 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:18:12 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:18:12 [INFO]   DOTUSDT      $    1.2870 | RSI= 55.3 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:18:12 [INFO]   ADAUSDT      $    0.2465 | RSI= 48.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:18:13 [INFO]   LTCUSDT      $   53.5400 | RSI= 37.5 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:19:13 [INFO] 
+── Ciclo #11 | 18:19:13 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:19:13 [INFO]   SOLUSDT      $   82.9400 | RSI= 66.8 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:19:14 [INFO]   DOGEUSDT     $    0.0902 | RSI= 58.6 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:19:14 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:19:14 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:19:14 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:19:15 [INFO]   DOTUSDT      $    1.2870 | RSI= 55.3 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:19:15 [INFO]   ADAUSDT      $    0.2465 | RSI= 48.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:19:15 [INFO]   LTCUSDT      $   53.5400 | RSI= 37.5 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:20:16 [INFO] 
+── Ciclo #12 | 18:20:15 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:20:16 [INFO]   SOLUSDT      $   82.9700 | RSI= 67.5 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:20:16 [INFO]   DOGEUSDT     $    0.0903 | RSI= 61.0 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:20:17 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:20:17 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:20:17 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:20:18 [INFO]   DOTUSDT      $    1.2870 | RSI= 55.3 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:20:18 [INFO]   ADAUSDT      $    0.2463 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:20:18 [INFO]   LTCUSDT      $   53.5400 | RSI= 37.5 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:21:18 [INFO] 
+── Ciclo #13 | 18:21:18 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:21:19 [INFO]   SOLUSDT      $   82.9700 | RSI= 67.5 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:21:19 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.5 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:21:19 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:21:20 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:21:21 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:21:21 [INFO]   DOTUSDT      $    1.2860 | RSI= 54.4 | Score=2/6 | Vol x3.1 | 
+2026-03-27 18:21:21 [INFO]   ADAUSDT      $    0.2463 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:21:21 [INFO]   LTCUSDT      $   53.5400 | RSI= 37.5 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:22:22 [INFO] 
+── Ciclo #14 | 18:22:21 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:22:22 [INFO]   SOLUSDT      $   82.9700 | RSI= 67.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:22:22 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.2 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:22:23 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:22:23 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:22:23 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:22:24 [INFO]   DOTUSDT      $    1.2860 | RSI= 54.4 | Score=2/6 | Vol x3.1 | 
+2026-03-27 18:22:24 [INFO]   ADAUSDT      $    0.2463 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:22:24 [INFO]   LTCUSDT      $   53.5400 | RSI= 37.5 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:23:24 [INFO] 
+── Ciclo #15 | 18:23:24 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:23:25 [INFO]   SOLUSDT      $   82.9700 | RSI= 67.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:23:25 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.5 | Score=1/6 | Vol x0.2 | 
+2026-03-27 18:23:25 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:23:26 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:23:26 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:23:26 [INFO]   DOTUSDT      $    1.2860 | RSI= 54.4 | Score=2/6 | Vol x3.1 | 
+2026-03-27 18:23:27 [INFO]   ADAUSDT      $    0.2463 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:23:27 [INFO]   LTCUSDT      $   53.5200 | RSI= 37.0 | Score=2/6 | Vol x0.1 | 
+2026-03-27 18:24:28 [INFO] 
+── Ciclo #16 | 18:24:27 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:24:28 [INFO]   SOLUSDT      $   82.9400 | RSI= 66.8 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:24:28 [INFO]   DOGEUSDT     $    0.0902 | RSI= 58.1 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:24:29 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:24:29 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:24:29 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:24:30 [INFO]   DOTUSDT      $    1.2860 | RSI= 54.4 | Score=2/6 | Vol x3.1 | 
+2026-03-27 18:24:30 [INFO]   ADAUSDT      $    0.2463 | RSI= 46.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:24:30 [INFO]   LTCUSDT      $   53.5000 | RSI= 36.5 | Score=2/6 | Vol x0.3 | 
+2026-03-27 18:25:30 [INFO] 
+── Ciclo #17 | 18:25:30 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:25:31 [INFO]   SOLUSDT      $   82.9700 | RSI= 67.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:25:31 [INFO]   DOGEUSDT     $    0.0902 | RSI= 58.6 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:25:31 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:25:32 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:25:32 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:25:32 [INFO]   DOTUSDT      $    1.2850 | RSI= 53.3 | Score=2/6 | Vol x3.2 | 
+2026-03-27 18:25:33 [INFO]   ADAUSDT      $    0.2462 | RSI= 45.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:25:33 [INFO]   LTCUSDT      $   53.5000 | RSI= 36.5 | Score=2/6 | Vol x0.3 | 
+2026-03-27 18:26:33 [INFO] 
+── Ciclo #18 | 18:26:33 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:26:33 [INFO]   SOLUSDT      $   82.9600 | RSI= 67.3 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:26:34 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.2 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:26:34 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:26:34 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:26:35 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:26:35 [INFO]   DOTUSDT      $    1.2850 | RSI= 53.3 | Score=2/6 | Vol x3.2 | 
+2026-03-27 18:26:35 [INFO]   ADAUSDT      $    0.2462 | RSI= 45.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:26:36 [INFO]   LTCUSDT      $   53.5600 | RSI= 38.0 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:27:36 [INFO] 
+── Ciclo #19 | 18:27:36 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:27:36 [INFO]   SOLUSDT      $   82.9700 | RSI= 67.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:27:37 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.2 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:27:37 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:27:38 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:27:38 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:27:39 [INFO]   DOTUSDT      $    1.2850 | RSI= 53.3 | Score=2/6 | Vol x3.2 | 
+2026-03-27 18:27:39 [INFO]   ADAUSDT      $    0.2462 | RSI= 45.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:27:40 [INFO]   LTCUSDT      $   53.5500 | RSI= 37.8 | Score=1/6 | Vol x0.5 | 
+2026-03-27 18:28:40 [INFO] 
+── Ciclo #20 | 18:28:40 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:28:41 [INFO]   SOLUSDT      $   83.0300 | RSI= 68.5 | Score=1/6 | Vol x0.4 | 
+2026-03-27 18:28:41 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.5 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:28:41 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:28:42 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:28:42 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:28:42 [INFO]   DOTUSDT      $    1.2850 | RSI= 53.3 | Score=2/6 | Vol x3.2 | 
+2026-03-27 18:28:42 [INFO]   ADAUSDT      $    0.2462 | RSI= 45.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:28:43 [INFO]   LTCUSDT      $   53.5700 | RSI= 38.3 | Score=1/6 | Vol x0.7 | 
+2026-03-27 18:29:43 [INFO] 
+── Ciclo #21 | 18:29:43 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:29:43 [INFO]   SOLUSDT      $   82.9800 | RSI= 67.7 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:29:44 [INFO]   DOGEUSDT     $    0.0902 | RSI= 58.9 | Score=1/6 | Vol x0.4 | 
+2026-03-27 18:29:44 [INFO]   AVAXUSDT     $    8.7900 | RSI= 61.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:29:44 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:29:45 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:29:45 [INFO]   DOTUSDT      $    1.2850 | RSI= 53.3 | Score=2/6 | Vol x3.2 | 
+2026-03-27 18:29:45 [INFO]   ADAUSDT      $    0.2462 | RSI= 45.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:29:45 [INFO]   LTCUSDT      $   53.5800 | RSI= 38.7 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:30:46 [INFO] 
+── Ciclo #22 | 18:30:45 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:30:47 [INFO]   SOLUSDT      $   83.0500 | RSI= 71.9 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:30:47 [INFO]   DOGEUSDT     $    0.0902 | RSI= 60.7 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:30:47 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:30:48 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:30:48 [INFO]   LINKUSDT     $    8.5400 | RSI= 50.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:30:48 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:30:49 [INFO]   ADAUSDT      $    0.2462 | RSI= 49.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:30:49 [INFO]   LTCUSDT      $   53.6500 | RSI= 44.2 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:31:50 [INFO] 
+── Ciclo #23 | 18:31:49 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:31:50 [INFO]   SOLUSDT      $   83.0200 | RSI= 71.5 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:31:50 [INFO]   DOGEUSDT     $    0.0902 | RSI= 60.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:31:51 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:31:51 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:31:51 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:31:51 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:31:52 [INFO]   ADAUSDT      $    0.2462 | RSI= 49.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:31:52 [INFO]   LTCUSDT      $   53.6600 | RSI= 44.6 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:32:52 [INFO] 
+── Ciclo #24 | 18:32:52 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:32:53 [INFO]   SOLUSDT      $   83.0100 | RSI= 71.3 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:32:53 [INFO]   DOGEUSDT     $    0.0902 | RSI= 60.9 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:32:54 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:32:54 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:32:54 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:32:55 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:32:55 [INFO]   ADAUSDT      $    0.2462 | RSI= 49.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:32:55 [INFO]   LTCUSDT      $   53.6800 | RSI= 45.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:33:56 [INFO] 
+── Ciclo #25 | 18:33:55 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:33:56 [INFO]   SOLUSDT      $   83.0100 | RSI= 71.3 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:33:56 [INFO]   DOGEUSDT     $    0.0902 | RSI= 60.1 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:33:57 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:33:57 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:33:57 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:33:57 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:33:58 [INFO]   ADAUSDT      $    0.2462 | RSI= 49.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:33:58 [INFO]   LTCUSDT      $   53.6500 | RSI= 44.2 | Score=1/6 | Vol x1.0 | 
+2026-03-27 18:34:58 [INFO] 
+── Ciclo #26 | 18:34:58 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:34:59 [INFO]   SOLUSDT      $   83.0200 | RSI= 71.5 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:34:59 [INFO]   DOGEUSDT     $    0.0902 | RSI= 60.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:34:59 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:35:00 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:35:00 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:35:00 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:35:00 [INFO]   ADAUSDT      $    0.2462 | RSI= 49.1 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:35:01 [INFO]   LTCUSDT      $   53.6500 | RSI= 44.2 | Score=1/6 | Vol x1.0 | 
+2026-03-27 18:36:01 [INFO] 
+── Ciclo #27 | 18:36:01 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:36:01 [INFO]   SOLUSDT      $   82.9900 | RSI= 70.8 | Score=1/6 | Vol x0.3 | 
+2026-03-27 18:36:02 [INFO]   DOGEUSDT     $    0.0902 | RSI= 59.9 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:36:02 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:36:02 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:36:03 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:36:03 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:36:03 [INFO]   ADAUSDT      $    0.2466 | RSI= 52.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:36:03 [INFO]   LTCUSDT      $   53.6500 | RSI= 44.2 | Score=1/6 | Vol x1.0 | 
+2026-03-27 18:37:04 [INFO] 
+── Ciclo #28 | 18:37:03 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:37:04 [INFO]   SOLUSDT      $   82.9200 | RSI= 68.3 | Score=1/6 | Vol x0.4 | 
+2026-03-27 18:37:04 [INFO]   DOGEUSDT     $    0.0901 | RSI= 58.6 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:37:05 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:37:05 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:37:05 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:37:06 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:37:06 [INFO]   ADAUSDT      $    0.2466 | RSI= 52.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:37:06 [INFO]   LTCUSDT      $   53.6500 | RSI= 44.2 | Score=1/6 | Vol x1.0 | 
+2026-03-27 18:38:07 [INFO] 
+── Ciclo #29 | 18:38:06 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:38:07 [INFO]   SOLUSDT      $   82.8600 | RSI= 66.3 | Score=0/6 | Vol x0.5 | 
+2026-03-27 18:38:08 [INFO]   DOGEUSDT     $    0.0901 | RSI= 57.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:38:08 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:38:08 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:38:09 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:38:09 [INFO]   DOTUSDT      $    1.2880 | RSI= 61.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:38:09 [INFO]   ADAUSDT      $    0.2466 | RSI= 52.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:38:10 [INFO]   LTCUSDT      $   53.6300 | RSI= 43.5 | Score=1/6 | Vol x1.0 | 
+2026-03-27 18:39:10 [INFO] 
+── Ciclo #30 | 18:39:10 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:39:10 [INFO]   SOLUSDT      $   82.8100 | RSI= 64.8 | Score=0/6 | Vol x0.6 | 
+2026-03-27 18:39:10 [INFO]   DOGEUSDT     $    0.0901 | RSI= 58.1 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:39:11 [INFO]   AVAXUSDT     $    8.7900 | RSI= 76.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:39:11 [INFO]   POLUSDT      $    0.0904 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:39:11 [INFO]   LINKUSDT     $    8.5500 | RSI= 53.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:39:12 [INFO]   DOTUSDT      $    1.2890 | RSI= 62.2 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:39:12 [INFO]   ADAUSDT      $    0.2466 | RSI= 52.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:39:12 [INFO]   LTCUSDT      $   53.6200 | RSI= 43.1 | Score=1/6 | Vol x1.1 | 
+2026-03-27 18:39:38 [INFO] 
+Bot detenido por el usuario (Ctrl+C).
+2026-03-27 18:39:38 [INFO] =======================================================
+2026-03-27 18:39:38 [INFO]   RESUMEN DE APRENDIZAJE
+2026-03-27 18:39:38 [INFO]   Total trades  : 0
+2026-03-27 18:39:38 [INFO]   Sin trades aún
+2026-03-27 18:39:38 [INFO]   Parámetros actuales: {'rsi_period': 14, 'rsi_oversold': 32, 'rsi_overbought': 68, 'fast_ema': 9, 'slow_ema': 21, 'bb_period': 20, 'bb_std': 2.0, 'macd_fast': 12, 'macd_slow': 26, 'macd_signal': 9, 'atr_period': 14, 'min_score': 3, 'volume_factor': 1.2}
+2026-03-27 18:39:38 [INFO] =======================================================
+2026-03-27 18:39:40 [INFO] =======================================================
+2026-03-27 18:39:40 [INFO]   BOT ADAPTATIVO — ALTCOINS VOLÁTILES
+2026-03-27 18:39:40 [INFO]   Monedas  : SOLUSDT, DOGEUSDT, AVAXUSDT, POLUSDT, LINKUSDT, DOTUSDT, ADAUSDT, LTCUSDT
+2026-03-27 18:39:40 [INFO]   Intervalo: 5m  |  Modo: TESTNET
+2026-03-27 18:39:40 [INFO]   Max posiciones simultáneas: 3
+2026-03-27 18:39:40 [INFO] =======================================================
+2026-03-27 18:39:40 [INFO] Conectado al TESTNET de Binance (paper trading)
+2026-03-27 18:39:40 [INFO] =======================================================
+2026-03-27 18:39:40 [INFO]   RESUMEN DE APRENDIZAJE
+2026-03-27 18:39:40 [INFO]   Total trades  : 0
+2026-03-27 18:39:40 [INFO]   Sin trades aún
+2026-03-27 18:39:40 [INFO]   Parámetros actuales: {'rsi_period': 14, 'rsi_oversold': 32, 'rsi_overbought': 68, 'fast_ema': 9, 'slow_ema': 21, 'bb_period': 20, 'bb_std': 2.0, 'macd_fast': 12, 'macd_slow': 26, 'macd_signal': 9, 'atr_period': 14, 'min_score': 2, 'volume_factor': 0.5}
+2026-03-27 18:39:40 [INFO] =======================================================
+2026-03-27 18:39:41 [INFO] 
+── Ciclo #1 | 18:39:40 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:39:42 [INFO]   SOLUSDT      $   82.8200 | RSI= 64.5 | Score=1/6 | Vol x1.7 | 
+2026-03-27 18:39:42 [INFO]   DOGEUSDT     $    0.0901 | RSI= 73.3 | Score=1/6 | Vol x1.0 | 
+2026-03-27 18:39:42 [INFO]   AVAXUSDT     $    8.7900 | RSI= 85.7 | Score=0/6 | Vol x0.5 | 
+2026-03-27 18:39:42 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=1/6 | Vol x0.0 | 
+2026-03-27 18:39:43 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:39:43 [INFO]   DOTUSDT      $    1.2890 | RSI= 88.9 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:39:43 [INFO]   ADAUSDT      $    0.2466 | RSI= 83.3 | Score=1/6 | Vol x0.1 | 
+2026-03-27 18:39:44 [INFO]   LTCUSDT      $   53.6200 | RSI= 48.2 | Score=1/6 | Vol x0.9 | 
+2026-03-27 18:40:44 [INFO] 
+── Ciclo #2 | 18:40:44 | Balance: $10000.00 | Posiciones: 0/3 ──
+2026-03-27 18:40:44 [INFO]   SOLUSDT      $   82.7900 | RSI= 69.0 | Score=1/6 | Vol x0.6 | 
+2026-03-27 18:40:45 [INFO]   DOGEUSDT     $    0.0901 | RSI= 74.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:40:45 [INFO]   AVAXUSDT     $    8.7900 | RSI= 85.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:40:45 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=3/6 | Vol x0.0 | 
+2026-03-27 18:40:46 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:40:46 [INFO]   DOTUSDT      $    1.2890 | RSI= 88.2 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:40:47 [INFO]   ADAUSDT      $    0.2464 | RSI= 73.7 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:40:47 [INFO]   LTCUSDT      $   53.6200 | RSI= 73.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:40:48 [INFO]   ✔ ABRIENDO POLUSDT @ $0.0904 | Qty: 2949.8 | SL: $0.0877 | TP: $0.0958 | Score: 3/6 | RSI=0.0 oversold ✓ | Cerca de BB inferior ✓ | MACD convergiendo ✓
+2026-03-27 18:41:49 [INFO] 
+── Ciclo #3 | 18:41:48 | Balance: $9733.34 | Posiciones: 1/3 ──
+2026-03-27 18:41:49 [INFO]   SOLUSDT      $   82.8400 | RSI= 72.1 | Score=1/6 | Vol x1.6 | 
+2026-03-27 18:41:49 [INFO]   DOGEUSDT     $    0.0902 | RSI= 74.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:41:49 [INFO]   AVAXUSDT     $    8.7800 | RSI= 75.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:41:50 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=4/6 | Vol x5.9 | [EN POSICIÓN]
+2026-03-27 18:41:50 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:41:50 [INFO]   DOTUSDT      $    1.2890 | RSI= 88.2 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:41:51 [INFO]   ADAUSDT      $    0.2463 | RSI= 70.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:41:51 [INFO]   LTCUSDT      $   53.6200 | RSI= 73.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:42:51 [INFO] 
+── Ciclo #4 | 18:42:51 | Balance: $9733.34 | Posiciones: 1/3 ──
+2026-03-27 18:42:52 [INFO]   SOLUSDT      $   82.9000 | RSI= 73.9 | Score=1/6 | Vol x2.1 | 
+2026-03-27 18:42:52 [INFO]   DOGEUSDT     $    0.0902 | RSI= 75.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:42:52 [INFO]   AVAXUSDT     $    8.7800 | RSI= 75.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:42:52 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=4/6 | Vol x5.9 | [EN POSICIÓN]
+2026-03-27 18:42:53 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:42:53 [INFO]   DOTUSDT      $    1.2910 | RSI= 89.5 | Score=1/6 | Vol x0.7 | 
+2026-03-27 18:42:53 [INFO]   ADAUSDT      $    0.2463 | RSI= 70.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:42:54 [INFO]   LTCUSDT      $   53.6200 | RSI= 73.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:43:54 [INFO] 
+── Ciclo #5 | 18:43:54 | Balance: $9733.34 | Posiciones: 1/3 ──
+2026-03-27 18:43:54 [INFO]   SOLUSDT      $   82.9200 | RSI= 74.5 | Score=1/6 | Vol x2.2 | 
+2026-03-27 18:43:55 [INFO]   DOGEUSDT     $    0.0902 | RSI= 76.5 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:43:55 [INFO]   AVAXUSDT     $    8.7800 | RSI= 75.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:43:55 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=4/6 | Vol x5.9 | [EN POSICIÓN]
+2026-03-27 18:43:56 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:43:56 [INFO]   DOTUSDT      $    1.2910 | RSI= 89.5 | Score=1/6 | Vol x0.7 | 
+2026-03-27 18:43:56 [INFO]   ADAUSDT      $    0.2463 | RSI= 70.0 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:43:56 [INFO]   LTCUSDT      $   53.6700 | RSI= 76.2 | Score=2/6 | Vol x0.7 | 
+2026-03-27 18:43:58 [INFO]   ✔ ABRIENDO LTCUSDT @ $53.6700 | Qty: 7.254 | SL: $52.0599 | TP: $56.8902 | Score: 2/6 | EMA bullish cross ✓ | Volumen x0.7 ✓
+2026-03-27 18:44:59 [INFO] 
+── Ciclo #6 | 18:44:58 | Balance: $9344.02 | Posiciones: 2/3 ──
+2026-03-27 18:44:59 [INFO]   SOLUSDT      $   82.9000 | RSI= 73.9 | Score=1/6 | Vol x2.6 | 
+2026-03-27 18:45:00 [INFO]   DOGEUSDT     $    0.0902 | RSI= 77.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:45:00 [INFO]   AVAXUSDT     $    8.8000 | RSI= 87.5 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:45:00 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=4/6 | Vol x5.9 | [EN POSICIÓN]
+2026-03-27 18:45:01 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:45:01 [INFO]   DOTUSDT      $    1.2920 | RSI= 90.0 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:45:02 [INFO]   ADAUSDT      $    0.2466 | RSI= 82.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:45:02 [INFO]   LTCUSDT      $   53.6800 | RSI= 76.7 | Score=1/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:45:02 [INFO]   ✔ CERRAR LTCUSDT @ $53.6800 | PnL: +0.02% | Motivo: SEÑAL SELL
+2026-03-27 18:46:03 [INFO] 
+── Ciclo #7 | 18:46:02 | Balance: $9733.34 | Posiciones: 1/3 ──
+2026-03-27 18:46:03 [INFO]   SOLUSDT      $   82.9400 | RSI= 75.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:46:03 [INFO]   DOGEUSDT     $    0.0902 | RSI= 72.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:46:04 [INFO]   AVAXUSDT     $    8.8000 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:46:04 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=3/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:46:04 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:46:04 [INFO]   DOTUSDT      $    1.2920 | RSI= 90.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:46:05 [INFO]   ADAUSDT      $    0.2466 | RSI= 82.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:46:05 [INFO]   LTCUSDT      $   53.6800 | RSI= 76.7 | Score=2/6 | Vol x1.7 | 
+2026-03-27 18:46:05 [INFO]   ✘ CERRAR POLUSDT @ $0.0904 | PnL: +0.00% | Motivo: SEÑAL SELL
+2026-03-27 18:46:06 [INFO]   ✔ ABRIENDO POLUSDT @ $0.0904 | Qty: 2871.1 | SL: $0.0877 | TP: $0.0958 | Score: 3/6 | RSI=0.0 oversold ✓ | Cerca de BB inferior ✓ | MACD convergiendo ✓
+2026-03-27 18:46:07 [INFO]   ✔ ABRIENDO LTCUSDT @ $53.6800 | Qty: 7.252 | SL: $52.0696 | TP: $56.9008 | Score: 2/6 | EMA bullish cross ✓ | Volumen x1.7 ✓
+2026-03-27 18:47:08 [INFO] 
+── Ciclo #8 | 18:47:07 | Balance: $9350.87 | Posiciones: 2/3 ──
+2026-03-27 18:47:08 [INFO]   SOLUSDT      $   82.9500 | RSI= 76.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:47:08 [INFO]   DOGEUSDT     $    0.0902 | RSI= 73.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:47:08 [INFO]   AVAXUSDT     $    8.8000 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:47:09 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=4/6 | Vol x8.9 | [EN POSICIÓN]
+2026-03-27 18:47:10 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:47:10 [INFO]   DOTUSDT      $    1.2920 | RSI= 90.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:47:10 [INFO]   ADAUSDT      $    0.2466 | RSI= 82.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:47:11 [INFO]   LTCUSDT      $   53.6700 | RSI= 75.0 | Score=2/6 | Vol x51.2 | [EN POSICIÓN]
+2026-03-27 18:47:11 [INFO]   ✘ CERRAR POLUSDT @ $0.0904 | PnL: +0.00% | Motivo: SEÑAL SELL
+2026-03-27 18:47:11 [INFO]   ✘ CERRAR LTCUSDT @ $53.6700 | PnL: -0.02% | Motivo: SEÑAL SELL
+2026-03-27 18:47:13 [INFO]   ✔ ABRIENDO POLUSDT @ $0.0904 | Qty: 2758.3 | SL: $0.0877 | TP: $0.0958 | Score: 4/6 | RSI=0.0 oversold ✓ | Cerca de BB inferior ✓ | MACD convergiendo ✓ | Volumen x8.9 ✓
+2026-03-27 18:47:13 [INFO]   ✔ ABRIENDO LTCUSDT @ $53.6700 | Qty: 6.969 | SL: $52.0599 | TP: $56.8902 | Score: 2/6 | EMA bullish cross ✓ | Volumen x51.2 ✓
+2026-03-27 18:48:14 [INFO] 
+── Ciclo #9 | 18:48:13 | Balance: $9375.90 | Posiciones: 2/3 ──
+2026-03-27 18:48:14 [INFO]   SOLUSDT      $   82.8700 | RSI= 72.3 | Score=1/6 | Vol x0.6 | 
+2026-03-27 18:48:14 [INFO]   DOGEUSDT     $    0.0902 | RSI= 70.4 | Score=1/6 | Vol x0.5 | 
+2026-03-27 18:48:15 [INFO]   AVAXUSDT     $    8.8000 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:48:15 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=4/6 | Vol x17.6 | [EN POSICIÓN]
+2026-03-27 18:48:15 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:48:15 [INFO]   DOTUSDT      $    1.2920 | RSI= 90.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:48:16 [INFO]   ADAUSDT      $    0.2467 | RSI= 83.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:48:16 [INFO]   LTCUSDT      $   53.6800 | RSI= 76.7 | Score=2/6 | Vol x53.3 | [EN POSICIÓN]
+2026-03-27 18:48:16 [INFO]   ✘ CERRAR POLUSDT @ $0.0904 | PnL: +0.00% | Motivo: SEÑAL SELL
+2026-03-27 18:48:17 [INFO]   ✔ CERRAR LTCUSDT @ $53.6800 | PnL: +0.02% | Motivo: SEÑAL SELL
+2026-03-27 18:48:18 [INFO]   ✔ ABRIENDO POLUSDT @ $0.0904 | Qty: 2765.7 | SL: $0.0877 | TP: $0.0958 | Score: 4/6 | RSI=0.0 oversold ✓ | Cerca de BB inferior ✓ | MACD convergiendo ✓ | Volumen x17.6 ✓
+2026-03-27 18:48:19 [INFO]   ✔ ABRIENDO LTCUSDT @ $53.6800 | Qty: 6.986 | SL: $52.0696 | TP: $56.9008 | Score: 2/6 | EMA bullish cross ✓ | Volumen x53.3 ✓
+2026-03-27 18:49:19 [INFO] 
+── Ciclo #10 | 18:49:19 | Balance: $9373.97 | Posiciones: 2/3 ──
+2026-03-27 18:49:19 [INFO]   LTCUSDT      $   53.6600 | RSI= 73.3 | Score=2/6 | Vol x55.4 | [EN POSICIÓN]
+2026-03-27 18:49:20 [INFO]   SOLUSDT      $   82.9100 | RSI= 75.0 | Score=1/6 | Vol x0.6 | 
+2026-03-27 18:49:20 [INFO]   DOGEUSDT     $    0.0902 | RSI= 70.4 | Score=1/6 | Vol x0.6 | 
+2026-03-27 18:49:20 [INFO]   AVAXUSDT     $    8.8000 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:49:21 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:49:21 [INFO]   DOTUSDT      $    1.2920 | RSI= 90.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:49:21 [INFO]   ADAUSDT      $    0.2466 | RSI= 82.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:49:22 [INFO]   POLUSDT      $    0.0904 | RSI=  0.0 | Score=4/6 | Vol x26.1 | [EN POSICIÓN]
+2026-03-27 18:49:22 [INFO]   ✘ CERRAR POLUSDT @ $0.0904 | PnL: +0.00% | Motivo: SEÑAL SELL
+2026-03-27 18:49:22 [INFO]   ✘ CERRAR LTCUSDT @ $53.6600 | PnL: -0.04% | Motivo: SEÑAL SELL
+2026-03-27 18:49:24 [INFO]   ✔ ABRIENDO POLUSDT @ $0.0904 | Qty: 2765.1 | SL: $0.0877 | TP: $0.0958 | Score: 4/6 | RSI=0.0 oversold ✓ | Cerca de BB inferior ✓ | MACD convergiendo ✓ | Volumen x26.1 ✓
+2026-03-27 18:49:24 [INFO]   ✔ ABRIENDO LTCUSDT @ $53.6600 | Qty: 6.987 | SL: $52.0502 | TP: $56.8796 | Score: 2/6 | EMA bullish cross ✓ | Volumen x55.4 ✓
+2026-03-27 18:50:25 [INFO] 
+── Ciclo #11 | 18:50:24 | Balance: $9373.63 | Posiciones: 2/3 ──
+2026-03-27 18:50:25 [INFO]   SOLUSDT      $   82.8500 | RSI= 67.1 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:50:26 [INFO]   DOGEUSDT     $    0.0901 | RSI= 66.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:50:27 [INFO]   AVAXUSDT     $    8.8000 | RSI= 85.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:50:27 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:50:28 [INFO]   DOTUSDT      $    1.2920 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:50:28 [INFO]   ADAUSDT      $    0.2466 | RSI= 78.6 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:50:28 [INFO]   LTCUSDT      $   53.6700 | RSI= 75.0 | Score=0/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:50:29 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=2/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:50:30 [INFO]   ✔ CERRAR LTCUSDT @ $53.6700 | PnL: +0.02% | Motivo: SEÑAL SELL
+2026-03-27 18:51:30 [INFO] 
+── Ciclo #12 | 18:51:30 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:51:30 [INFO]   LTCUSDT      $   53.6400 | RSI= 70.2 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:51:31 [INFO]   SOLUSDT      $   82.7900 | RSI= 62.6 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:51:31 [INFO]   DOGEUSDT     $    0.0901 | RSI= 62.4 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:51:32 [INFO]   AVAXUSDT     $    8.8000 | RSI= 85.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:51:32 [INFO]   LINKUSDT     $    8.5400 | RSI= 71.4 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:51:33 [INFO]   DOTUSDT      $    1.2920 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:51:33 [INFO]   ADAUSDT      $    0.2465 | RSI= 73.3 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:51:33 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=2/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:52:34 [INFO] 
+── Ciclo #13 | 18:52:33 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:52:34 [INFO]   LTCUSDT      $   53.6700 | RSI= 75.0 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:52:34 [INFO]   SOLUSDT      $   82.8500 | RSI= 67.1 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:52:35 [INFO]   DOGEUSDT     $    0.0901 | RSI= 64.2 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:52:35 [INFO]   AVAXUSDT     $    8.8000 | RSI= 85.7 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:52:35 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:52:36 [INFO]   DOTUSDT      $    1.2920 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:52:36 [INFO]   ADAUSDT      $    0.2464 | RSI= 68.8 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:52:36 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=2/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:53:37 [INFO] 
+── Ciclo #14 | 18:53:36 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:53:37 [INFO]   LTCUSDT      $   53.6600 | RSI= 73.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:53:38 [INFO]   SOLUSDT      $   82.8200 | RSI= 64.8 | Score=1/6 | Vol x0.9 | 
+2026-03-27 18:53:38 [INFO]   DOGEUSDT     $    0.0901 | RSI= 63.0 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:53:38 [INFO]   AVAXUSDT     $    8.7900 | RSI= 75.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:53:39 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:53:39 [INFO]   DOTUSDT      $    1.2920 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:53:39 [INFO]   ADAUSDT      $    0.2465 | RSI= 73.3 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:53:39 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=2/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:54:40 [INFO] 
+── Ciclo #15 | 18:54:39 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:54:40 [INFO]   LTCUSDT      $   53.6600 | RSI= 73.3 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:54:40 [INFO]   SOLUSDT      $   82.8200 | RSI= 64.8 | Score=1/6 | Vol x1.0 | 
+2026-03-27 18:54:41 [INFO]   DOGEUSDT     $    0.0901 | RSI= 63.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:54:41 [INFO]   AVAXUSDT     $    8.7900 | RSI= 75.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:54:42 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:54:42 [INFO]   DOTUSDT      $    1.2920 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:54:42 [INFO]   ADAUSDT      $    0.2466 | RSI= 78.6 | Score=0/6 | Vol x0.3 | 
+2026-03-27 18:54:43 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=2/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:55:43 [INFO] 
+── Ciclo #16 | 18:55:43 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:55:43 [INFO]   LTCUSDT      $   53.6600 | RSI= 70.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:55:44 [INFO]   SOLUSDT      $   82.7700 | RSI= 52.6 | Score=0/6 | Vol x0.2 | 
+2026-03-27 18:55:44 [INFO]   DOGEUSDT     $    0.0901 | RSI= 52.8 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:55:44 [INFO]   AVAXUSDT     $    8.7800 | RSI= 66.7 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:55:45 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:55:45 [INFO]   DOTUSDT      $    1.2920 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:55:45 [INFO]   ADAUSDT      $    0.2463 | RSI= 57.1 | Score=1/6 | Vol x0.7 | 
+2026-03-27 18:55:46 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=3/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:56:46 [INFO] 
+── Ciclo #17 | 18:56:46 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:56:46 [INFO]   LTCUSDT      $   53.6600 | RSI= 70.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:56:46 [INFO]   SOLUSDT      $   82.7600 | RSI= 52.0 | Score=1/6 | Vol x0.9 | 
+2026-03-27 18:56:47 [INFO]   DOGEUSDT     $    0.0900 | RSI= 50.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:56:47 [INFO]   AVAXUSDT     $    8.7700 | RSI= 60.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:56:47 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:56:48 [INFO]   DOTUSDT      $    1.2920 | RSI= 87.5 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:56:48 [INFO]   ADAUSDT      $    0.2462 | RSI= 53.3 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:56:48 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=3/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:57:49 [INFO] 
+── Ciclo #18 | 18:57:48 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:57:49 [INFO]   LTCUSDT      $   53.6600 | RSI= 70.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:57:50 [INFO]   SOLUSDT      $   82.7600 | RSI= 52.0 | Score=1/6 | Vol x0.9 | 
+2026-03-27 18:57:50 [INFO]   DOGEUSDT     $    0.0900 | RSI= 49.5 | Score=0/6 | Vol x0.4 | 
+2026-03-27 18:57:51 [INFO]   AVAXUSDT     $    8.7700 | RSI= 60.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:57:51 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:57:52 [INFO]   DOTUSDT      $    1.2870 | RSI= 66.7 | Score=1/6 | Vol x0.6 | 
+2026-03-27 18:57:52 [INFO]   ADAUSDT      $    0.2462 | RSI= 53.3 | Score=1/6 | Vol x0.9 | 
+2026-03-27 18:57:52 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=3/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:58:52 [INFO] 
+── Ciclo #19 | 18:58:52 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:58:53 [INFO]   LTCUSDT      $   53.6600 | RSI= 70.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:58:53 [INFO]   SOLUSDT      $   82.7600 | RSI= 52.0 | Score=1/6 | Vol x1.1 | 
+2026-03-27 18:58:53 [INFO]   DOGEUSDT     $    0.0900 | RSI= 50.0 | Score=1/6 | Vol x0.8 | 
+2026-03-27 18:58:54 [INFO]   AVAXUSDT     $    8.7700 | RSI= 60.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:58:54 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:58:54 [INFO]   DOTUSDT      $    1.2870 | RSI= 66.7 | Score=1/6 | Vol x0.6 | 
+2026-03-27 18:58:55 [INFO]   ADAUSDT      $    0.2461 | RSI= 50.0 | Score=1/6 | Vol x2.3 | 
+2026-03-27 18:58:55 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=3/6 | Vol x0.0 | [EN POSICIÓN]
+2026-03-27 18:59:55 [INFO] 
+── Ciclo #20 | 18:59:55 | Balance: $9748.41 | Posiciones: 1/3 ──
+2026-03-27 18:59:55 [INFO]   LTCUSDT      $   53.6600 | RSI= 70.0 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:59:56 [INFO]   SOLUSDT      $   82.7000 | RSI= 48.2 | Score=1/6 | Vol x1.7 | 
+2026-03-27 18:59:56 [INFO]   DOGEUSDT     $    0.0899 | RSI= 46.1 | Score=1/6 | Vol x1.4 | 
+2026-03-27 18:59:56 [INFO]   AVAXUSDT     $    8.7700 | RSI= 60.0 | Score=0/6 | Vol x0.1 | 
+2026-03-27 18:59:57 [INFO]   LINKUSDT     $    8.5500 | RSI= 83.3 | Score=0/6 | Vol x0.0 | 
+2026-03-27 18:59:57 [INFO]   DOTUSDT      $    1.2870 | RSI= 66.7 | Score=1/6 | Vol x0.6 | 
+2026-03-27 18:59:57 [INFO]   ADAUSDT      $    0.2458 | RSI= 42.1 | Score=1/6 | Vol x3.6 | 
+2026-03-27 18:59:58 [INFO]   POLUSDT      $    0.0903 | RSI=  0.0 | Score=3/6 | Vol x0.0 | [EN POSICIÓN]
