@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/statuses/status_curse_mark.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "curse_mark_bite"
+display_name = "Festering Bite"
+description = "A bite that leaves a smoldering curse mark behind."
+energy_cost = 0
+power = 1.0
+accuracy = 1.0
+target_type = 0
+effect_type = 0
+applies_status = ExtResource("2")
+apply_status_chance = 0.6
+gauge_gain_self = 15
+is_domain_expansion = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "black_flash_combo"
+display_name = "Black Flash Combo"
+description = "A rapid burst of perfectly-timed strikes."
+energy_cost = 1
+power = 1.6
+accuracy = 0.95
+target_type = 0
+effect_type = 0
+applies_status = null
+apply_status_chance = 1.0
+gauge_gain_self = 20
+is_domain_expansion = false

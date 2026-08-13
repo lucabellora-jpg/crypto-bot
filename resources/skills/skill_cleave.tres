@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "cleave"
+display_name = "Cleave"
+description = "A wide arc of cursed energy sweeps across the party."
+energy_cost = 0
+power = 1.2
+accuracy = 0.9
+target_type = 1
+effect_type = 0
+applies_status = null
+apply_status_chance = 1.0
+gauge_gain_self = 12
+is_domain_expansion = false

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CharacterData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_shadow_slash.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_shikigami_nue_strike.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_ten_shadows_guard.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_chimera_shadow_garden.tres" id="5"]
+
+[resource]
+script = ExtResource("1")
+id = "itsuki_kurogami"
+display_name = "Itsuki Kurogami"
+flavor_text = "A reserved shikigami handler who lets summoned familiars do the fighting."
+grade = 2
+portrait = null
+max_hp = 110
+attack = 16
+defense = 8
+speed = 14
+basic_attack = ExtResource("2")
+techniques = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+domain_expansion = ExtResource("5")
+domain_gauge_max = 100
+unlock_cost = 0

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CharacterData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_infinity_guard.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_blue_collapse.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_purple_annihilation.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_boundless_void.tres" id="5"]
+
+[resource]
+script = ExtResource("1")
+id = "rin_amagase"
+display_name = "Rin Amagase"
+flavor_text = "The strongest barrier user of her generation. Unbothered, unbeaten."
+grade = 4
+portrait = null
+max_hp = 130
+attack = 26
+defense = 14
+speed = 18
+basic_attack = ExtResource("2")
+techniques = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+domain_expansion = ExtResource("5")
+domain_gauge_max = 100
+unlock_cost = 150

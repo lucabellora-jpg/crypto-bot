@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="StatusEffectData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/StatusEffectData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+kind = 3
+display_name = "Empowered"
+duration_turns = 3
+magnitude = 0.3
+stacks = 1

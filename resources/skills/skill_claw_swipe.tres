@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "claw_swipe"
+display_name = "Claw Swipe"
+description = "A raking swipe of blackened talons."
+energy_cost = 0
+power = 1.1
+accuracy = 1.0
+target_type = 0
+effect_type = 0
+applies_status = null
+apply_status_chance = 1.0
+gauge_gain_self = 15
+is_domain_expansion = false

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/EnemyData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_crushing_grasp.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_corrode_aura.tres" id="3"]
+
+[resource]
+script = ExtResource("1")
+id = "hollow_cursed_womb"
+display_name = "Hollow Cursed Womb"
+flavor_text = "A mass of grasping limbs folded around an empty, hungry center."
+grade = 2
+portrait = null
+max_hp = 130
+attack = 15
+defense = 8
+speed = 8
+skills = Array[SkillData]([ExtResource("2"), ExtResource("3")])
+skill_weights = Array[float]([0.6, 0.4])
+shard_reward_min = 12
+shard_reward_max = 20
+relic_drop_chance = 0.2

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/statuses/status_bind.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "binding_bite"
+display_name = "Clamping Bite"
+description = "Jaws lock around the target, pinning them in place."
+energy_cost = 0
+power = 0.8
+accuracy = 0.9
+target_type = 0
+effect_type = 0
+applies_status = ExtResource("2")
+apply_status_chance = 0.3
+gauge_gain_self = 15
+is_domain_expansion = false

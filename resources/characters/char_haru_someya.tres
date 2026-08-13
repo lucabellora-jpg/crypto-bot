@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CharacterData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_basic_punch.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_black_flash_combo.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_cursed_fist.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_coiling_furnace.tres" id="5"]
+
+[resource]
+script = ExtResource("1")
+id = "haru_someya"
+display_name = "Haru Someya"
+flavor_text = "A first-year brawler who fights on instinct and raw cursed energy output."
+grade = 2
+portrait = null
+max_hp = 140
+attack = 22
+defense = 10
+speed = 12
+basic_attack = ExtResource("2")
+techniques = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+domain_expansion = ExtResource("5")
+domain_gauge_max = 100
+unlock_cost = 0

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "hairpin_barrage"
+display_name = "Hairpin Barrage"
+description = "A flurry of thrown hairpins peppers every enemy."
+energy_cost = 2
+power = 0.9
+accuracy = 0.9
+target_type = 1
+effect_type = 0
+applies_status = null
+apply_status_chance = 1.0
+gauge_gain_self = 18
+is_domain_expansion = false

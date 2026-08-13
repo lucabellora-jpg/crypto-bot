@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="StatusEffectData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/StatusEffectData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+kind = 0
+display_name = "Curse Mark"
+duration_turns = 3
+magnitude = 6.0
+stacks = 1

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CharacterData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_hammer_strike.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_resonance_nail.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_hairpin_barrage.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_thousand_nail_requiem.tres" id="5"]
+
+[resource]
+script = ExtResource("1")
+id = "kaede_ibarahi"
+display_name = "Kaede Ibarahi"
+flavor_text = "A sharp-tongued straw-doll technician who never misses her mark twice."
+grade = 3
+portrait = null
+max_hp = 100
+attack = 20
+defense = 6
+speed = 16
+basic_attack = ExtResource("2")
+techniques = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+domain_expansion = ExtResource("5")
+domain_gauge_max = 100
+unlock_cost = 0

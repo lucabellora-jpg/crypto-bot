@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="BossData" load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/BossData.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/BossPhaseData.gd" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_dismantle.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_cleave.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_malevolent_maw.tres" id="5"]
+[ext_resource type="Resource" path="res://resources/statuses/status_empower.tres" id="6"]
+
+[sub_resource type="Resource" id="1"]
+script = ExtResource("2")
+hp_threshold = 1.0
+phase_name = "Awakened"
+intro_text = "A pair of eyes open across its featureless face. It has decided you are worth its attention."
+skills = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+skill_weights = Array[float]([0.6, 0.4])
+attack_multiplier = 1.0
+defense_multiplier = 1.0
+grants_status_self = null
+
+[sub_resource type="Resource" id="2"]
+script = ExtResource("2")
+hp_threshold = 0.5
+phase_name = "Unbound"
+intro_text = "\"Enough playing.\" Cursed energy floods the room as it sheds all restraint."
+skills = Array[SkillData]([ExtResource("3"), ExtResource("4"), ExtResource("5")])
+skill_weights = Array[float]([0.35, 0.25, 0.4])
+attack_multiplier = 1.3
+defense_multiplier = 1.0
+grants_status_self = ExtResource("6")
+
+[resource]
+script = ExtResource("1")
+id = "ryomen_no_zanma"
+display_name = "Ryomen no Zanma"
+flavor_text = "A special-grade curse said to have devoured a thousand sorcerers across a thousand years."
+grade = 4
+portrait = null
+max_hp = 400
+attack = 26
+defense = 12
+speed = 15
+skills = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+skill_weights = Array[float]([0.6, 0.4])
+shard_reward_min = 60
+shard_reward_max = 90
+relic_drop_chance = 0.6
+domain_intro_text = "The corridor folds in on itself. There is no door out — only Ryomen no Zanma, waiting."
+phases = Array[BossPhaseData]([SubResource("1"), SubResource("2")])
+enrage_turn = -1
+enrage_attack_multiplier = 1.5

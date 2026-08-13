@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "domain_boundless_void"
+display_name = "Domain Expansion: Boundless Void"
+description = "An inescapable domain where every strike lands true."
+energy_cost = 5
+power = 3.0
+accuracy = 1.0
+target_type = 1
+effect_type = 0
+applies_status = null
+apply_status_chance = 1.0
+gauge_gain_self = 0
+is_domain_expansion = true

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/EnemyData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_double_slash.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_curse_mark_bite.tres" id="3"]
+
+[resource]
+script = ExtResource("1")
+id = "twin_faced_rot"
+display_name = "Twin-Faced Rot"
+flavor_text = "Two faces share one rotting body, each one hungrier than the other."
+grade = 2
+portrait = null
+max_hp = 150
+attack = 17
+defense = 9
+speed = 10
+skills = Array[SkillData]([ExtResource("2"), ExtResource("3")])
+skill_weights = Array[float]([0.5, 0.5])
+shard_reward_min = 14
+shard_reward_max = 22
+relic_drop_chance = 0.2
