@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RelicData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/RelicData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "ember_core"
+display_name = "Ember Core"
+description = "A splinter of a domain that never fully closed. Domain gauges charge 25% faster."
+icon = null
+energy_max_bonus = 0
+gauge_gain_bonus_pct = 0.25
+crit_chance_bonus = 0.0
+party_attack_bonus_pct = 0.0
+party_defense_bonus_pct = 0.0
+shard_gain_bonus_pct = 0.0

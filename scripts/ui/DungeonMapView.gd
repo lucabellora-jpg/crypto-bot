@@ -12,6 +12,7 @@ const NODE_TYPE_LABELS := {
 var _rows_container: VBoxContainer
 var _status_label: Label
 var _party_label: Label
+var _relics_label: Label
 
 
 func _ready() -> void:
@@ -34,6 +35,10 @@ func _ready() -> void:
 	_party_label = Label.new()
 	outer.add_child(_party_label)
 
+	_relics_label = Label.new()
+	_relics_label.modulate = Color(0.85, 0.75, 1.0)
+	outer.add_child(_relics_label)
+
 	var scroll := ScrollContainer.new()
 	scroll.custom_minimum_size = Vector2(0, 480)
 	outer.add_child(scroll)
@@ -54,6 +59,16 @@ func _refresh() -> void:
 		if char_data != null:
 			party_bits.append("%s %d/%d" % [char_data.display_name, RunState.get_party_hp(id), char_data.max_hp])
 	_party_label.text = " | ".join(party_bits)
+
+	if RunState.relics.is_empty():
+		_relics_label.text = "Relics: none yet"
+	else:
+		var relic_names: Array[String] = []
+		for id in RunState.relics:
+			var relic := GameData.get_relic(id)
+			if relic != null:
+				relic_names.append(relic.display_name)
+		_relics_label.text = "Relics: " + ", ".join(relic_names)
 
 	for child in _rows_container.get_children():
 		child.queue_free()

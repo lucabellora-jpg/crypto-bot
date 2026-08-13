@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CharacterData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_blade_flicker.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_twin_fang_rush.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_phantom_step.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_thousandfold_blades.tres" id="5"]
+
+[resource]
+script = ExtResource("1")
+id = "sora_kanade"
+display_name = "Sora Kanade"
+flavor_text = "Faster than her cursed tools should allow her to be, and she knows it."
+grade = 2
+portrait = null
+max_hp = 105
+attack = 19
+defense = 7
+speed = 20
+basic_attack = ExtResource("2")
+techniques = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+domain_expansion = ExtResource("5")
+domain_gauge_max = 100
+unlock_cost = 90

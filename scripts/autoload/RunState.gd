@@ -103,6 +103,44 @@ func spend_run_shards(amount: int) -> bool:
 	return true
 
 
+## Sums every owned relic's effect fields into one modifier bundle for
+## CombatManager to apply. Adding a relic never requires touching this code.
+func get_relic_modifiers() -> Dictionary:
+	var mods := {
+		"energy_max_bonus": 0,
+		"gauge_gain_bonus_pct": 0.0,
+		"crit_chance_bonus": 0.0,
+		"party_attack_bonus_pct": 0.0,
+		"party_defense_bonus_pct": 0.0,
+		"shard_gain_bonus_pct": 0.0,
+	}
+	for id in relics:
+		var relic := GameData.get_relic(id)
+		if relic == null:
+			continue
+		mods.energy_max_bonus += relic.energy_max_bonus
+		mods.gauge_gain_bonus_pct += relic.gauge_gain_bonus_pct
+		mods.crit_chance_bonus += relic.crit_chance_bonus
+		mods.party_attack_bonus_pct += relic.party_attack_bonus_pct
+		mods.party_defense_bonus_pct += relic.party_defense_bonus_pct
+		mods.shard_gain_bonus_pct += relic.shard_gain_bonus_pct
+	return mods
+
+
+## Awards a random relic the party doesn't already own. Returns it, or null
+## if every known relic is already owned.
+func add_random_relic() -> RelicData:
+	var candidates: Array[String] = []
+	for id in GameData.relics.keys():
+		if not relics.has(id):
+			candidates.append(id)
+	if candidates.is_empty():
+		return null
+	var picked: String = candidates[rng.randi_range(0, candidates.size() - 1)]
+	relics.append(picked)
+	return GameData.get_relic(picked)
+
+
 func add_meta_shards(amount: int) -> void:
 	meta_shards += amount
 	meta_currency_changed.emit(meta_shards)

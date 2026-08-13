@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/statuses/status_empower.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "bloodlust"
+display_name = "Bloodlust"
+description = "The husk shudders, and something in it sharpens."
+energy_cost = 0
+power = 0.0
+accuracy = 1.0
+target_type = 4
+effect_type = 2
+applies_status = ExtResource("2")
+apply_status_chance = 1.0
+gauge_gain_self = 10
+is_domain_expansion = false

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CharacterData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/skills/skill_focus_strike.tres" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_mending_pulse.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_ward_sigil.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_sanctuary_bloom.tres" id="5"]
+
+[resource]
+script = ExtResource("1")
+id = "mei_sorano"
+display_name = "Mei Sorano"
+flavor_text = "A calm, methodical healer who treats the battlefield like a garden to be tended."
+grade = 1
+portrait = null
+max_hp = 115
+attack = 14
+defense = 9
+speed = 11
+basic_attack = ExtResource("2")
+techniques = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+domain_expansion = ExtResource("5")
+domain_gauge_max = 100
+unlock_cost = 0

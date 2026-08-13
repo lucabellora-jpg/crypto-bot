@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RelicData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/RelicData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "bloodroot_charm"
+display_name = "Bloodroot Charm"
+description = "Grown from soil steeped in old curses. +15% party attack."
+icon = null
+energy_max_bonus = 0
+gauge_gain_bonus_pct = 0.0
+crit_chance_bonus = 0.0
+party_attack_bonus_pct = 0.15
+party_defense_bonus_pct = 0.0
+shard_gain_bonus_pct = 0.0

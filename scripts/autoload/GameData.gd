@@ -6,18 +6,21 @@ extends Node
 var characters: Dictionary = {} # id -> CharacterData
 var enemies: Dictionary = {} # id -> EnemyData
 var bosses: Dictionary = {} # id -> BossData
+var relics: Dictionary = {} # id -> RelicData
 
 const CHARACTERS_PATH := "res://resources/characters"
 const ENEMIES_PATH := "res://resources/enemies"
 const BOSSES_PATH := "res://resources/bosses"
+const RELICS_PATH := "res://resources/relics"
 
 
 func _ready() -> void:
 	_load_folder(CHARACTERS_PATH, characters)
 	_load_folder(ENEMIES_PATH, enemies)
 	_load_folder(BOSSES_PATH, bosses)
-	print("[GameData] loaded %d characters, %d enemies, %d bosses" % [
-		characters.size(), enemies.size(), bosses.size()
+	_load_folder(RELICS_PATH, relics)
+	print("[GameData] loaded %d characters, %d enemies, %d bosses, %d relics" % [
+		characters.size(), enemies.size(), bosses.size(), relics.size()
 	])
 
 
@@ -49,6 +52,10 @@ func get_enemy(id: String) -> EnemyData:
 
 func get_boss(id: String) -> BossData:
 	return bosses.get(id, null)
+
+
+func get_relic(id: String) -> RelicData:
+	return relics.get(id, null)
 
 
 func get_starter_characters() -> Array[CharacterData]:

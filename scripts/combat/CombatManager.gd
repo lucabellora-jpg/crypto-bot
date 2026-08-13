@@ -6,34 +6,52 @@ class_name CombatManager
 ## UI-agnostic — everything it does is broadcast via CombatBus.
 
 const STARTING_ENERGY := 3
-const MAX_ENERGY := 10
+const BASE_MAX_ENERGY := 10
 const ENERGY_PER_ROUND := 2
-const CRIT_CHANCE := 0.1
+const BASE_CRIT_CHANCE := 0.1
 const CRIT_MULTIPLIER := 1.5
 const GAUGE_ON_HIT_TAKEN := 8 ## gauge gained when a unit is damaged
+const FLOOR_SCALING_PER_FLOOR := 0.10 ## +10% enemy stats per floor beyond the first
 
 var party: Array[CombatUnit] = []
 var enemies: Array[CombatUnit] = []
 var party_energy: int = STARTING_ENERGY
-var party_energy_max: int = MAX_ENERGY
+var party_energy_max: int = BASE_MAX_ENERGY
 var round_number: int = 0
 var rng := RandomNumberGenerator.new()
+
+var _relic_mods: Dictionary = {}
 
 var _waiting_for_player: bool = false
 var _pending_skill: SkillData = null
 var _pending_targets: Array[CombatUnit] = []
 
 
-func setup(party_data: Array[CharacterData], enemy_data: Array[Resource], seed_value: int = -1, starting_hp: Dictionary = {}) -> void:
+func setup(party_data: Array[CharacterData], enemy_data: Array[Resource], seed_value: int = -1, starting_hp: Dictionary = {}, floor_number: int = 1) -> void:
 	rng.seed = seed_value if seed_value >= 0 else randi()
+	_relic_mods = RunState.get_relic_modifiers()
+
 	party = party_data.map(func(d):
 		var unit := CombatUnit.new(d, true)
+		unit.base_attack = int(round(unit.base_attack * (1.0 + _relic_mods.party_attack_bonus_pct)))
+		unit.base_defense = int(round(unit.base_defense * (1.0 + _relic_mods.party_defense_bonus_pct)))
 		if starting_hp.has(d.id):
 			unit.hp = clampi(starting_hp[d.id], 0, unit.max_hp)
 			unit.alive = unit.hp > 0
 		return unit
 	)
-	enemies = enemy_data.map(func(d): return CombatUnit.new(d, false))
+
+	var floor_scaling := 1.0 + FLOOR_SCALING_PER_FLOOR * max(floor_number - 1, 0)
+	enemies = enemy_data.map(func(d):
+		var unit := CombatUnit.new(d, false)
+		unit.max_hp = int(round(unit.max_hp * floor_scaling))
+		unit.hp = unit.max_hp
+		unit.base_attack = int(round(unit.base_attack * floor_scaling))
+		unit.base_defense = int(round(unit.base_defense * floor_scaling))
+		return unit
+	)
+
+	party_energy_max = BASE_MAX_ENERGY + int(_relic_mods.energy_max_bonus)
 	party_energy = STARTING_ENERGY
 	round_number = 0
 
@@ -131,7 +149,10 @@ func _resolve_action(actor: CombatUnit, skill: SkillData, targets: Array[CombatU
 		CombatBus.domain_expansion_triggered.emit(actor, skill)
 		actor.domain_gauge = 0
 	else:
-		actor.add_gauge(skill.gauge_gain_self)
+		var gain := skill.gauge_gain_self
+		if actor.is_player:
+			gain = int(round(gain * (1.0 + _relic_mods.gauge_gain_bonus_pct)))
+		actor.add_gauge(gain)
 		CombatBus.gauge_changed.emit(actor, actor.domain_gauge, actor.domain_gauge_max)
 
 	for target in targets:
@@ -161,7 +182,8 @@ func _resolve_action(actor: CombatUnit, skill: SkillData, targets: Array[CombatU
 
 
 func _apply_damage(actor: CombatUnit, target: CombatUnit, skill: SkillData) -> void:
-	var is_crit := rng.randf() <= CRIT_CHANCE
+	var crit_chance := BASE_CRIT_CHANCE + (_relic_mods.crit_chance_bonus if actor.is_player else 0.0)
+	var is_crit := rng.randf() <= crit_chance
 	var raw := actor.get_attack() * skill.power - target.get_defense() * 0.5
 	raw = max(raw, 1.0)
 	if is_crit:
@@ -241,4 +263,5 @@ func _compute_rewards() -> Dictionary:
 			shards += rng.randi_range(e.shard_reward_min, e.shard_reward_max)
 			if rng.randf() <= e.relic_drop_chance:
 				relic_dropped = true
+	shards = int(round(shards * (1.0 + _relic_mods.get("shard_gain_bonus_pct", 0.0))))
 	return {"shards": shards, "relic": relic_dropped}

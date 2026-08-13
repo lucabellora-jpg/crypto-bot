@@ -42,9 +42,10 @@ scripts/
 resources/
   statuses/         Burn, Bind, Weaken, Empower, Guard status effects
   skills/           Every technique, basic attack and Domain Expansion
-  characters/       4 playable sorcerers (3 starters + 1 unlockable)
-  enemies/          4 regular curses (2 elite-tier)
-  bosses/           2 special-grade curses with 2-phase fights
+  characters/       6 playable sorcerers (4 starters + 2 unlockable)
+  enemies/          7 regular curses (3 elite-tier)
+  bosses/           3 special-grade curses with 2-phase fights
+  relics/           6 passive run modifiers awarded from boss/relic drops
 scenes/
   ui/MainMenu.tscn
   dungeon/DungeonMap.tscn
@@ -71,9 +72,31 @@ sorcerer, curse or boss means adding a `.tres` file to the right folder;
 4. **Bosses** are `BossData` resources with an ordered list of
    `BossPhaseData` — each phase swaps in a new skill pool and stat
    multipliers once the boss's HP drops below that phase's threshold, and
-   can grant the boss a self-buff on the transition.
-5. Losing a run empties it (permadeath) but converts leftover run-currency
+   can grant the boss a self-buff on the transition. Enemies (including
+   bosses) also scale up ~10% in HP/attack/defense per floor beyond the
+   first, so later runs stay tense instead of flatlining in difficulty.
+5. **Relics** — beating a boss or a lucky regular fight can drop a relic
+   (`RelicData`): a passive, run-long modifier (bonus energy cap, faster
+   Domain Gauge charge, party-wide crit/attack/defense bonuses, or bonus
+   shard income). Effects from every relic owned stack additively and are
+   applied automatically by `CombatManager` at the start of each fight.
+6. Losing a run empties it (permadeath) but converts leftover run-currency
    into permanent shards for unlocking new sorcerers next time.
+
+## Current roster
+
+| Sorcerer | Archetype | Grade | Unlock |
+|---|---|---|---|
+| Haru Someya | brawler | Grade 2 | starter |
+| Itsuki Kurogami | shikigami handler | Grade 2 | starter |
+| Kaede Ibarahi | straw-doll technician | Grade 3 | starter |
+| Mei Sorano | healer/support | Grade 3 | starter |
+| Sora Kanade | dual-blade speedster | Grade 2 | 90 shards |
+| Rin Amagase | limitless barrier user | Special Grade | 150 shards |
+
+3 special-grade bosses (`Ryomen no Zanma`, `The Hollow King`, `The Endless
+Choir`) cycle by floor number so the same boss doesn't repeat back-to-back
+on short runs.
 
 ## Known gaps / next steps
 
@@ -82,7 +105,7 @@ sorcerer, curse or boss means adding a `.tres` file to the right folder;
 - `BossData.enrage_turn` is a documented but unwired hook for a future
   "fight is dragging on too long" enrage mechanic.
 - Only one map shape/size is defined (`DungeonMapGenerator.ROW_WIDTHS`);
-  no relic/item system beyond a boolean relic-drop flag.
+  event nodes are a single flat reward rather than a branching-choice system.
 - Not run inside a Godot editor in this environment — do a first pass of
   manual playtesting for balance and typos before treating any numbers as
   final.

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/statuses/status_weaken.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "discordant_wail"
+display_name = "Discordant Wail"
+description = "A chord that should never resolve, sung by a hundred overlapping throats."
+energy_cost = 0
+power = 1.1
+accuracy = 0.9
+target_type = 1
+effect_type = 0
+applies_status = ExtResource("2")
+apply_status_chance = 0.4
+gauge_gain_self = 12
+is_domain_expansion = false

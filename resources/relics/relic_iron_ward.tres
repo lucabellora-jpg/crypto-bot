@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RelicData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/RelicData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "iron_ward"
+display_name = "Iron Ward"
+description = "A talisman-etched plate worn smooth by countless deflected blows. +20% party defense."
+icon = null
+energy_max_bonus = 0
+gauge_gain_bonus_pct = 0.0
+crit_chance_bonus = 0.0
+party_attack_bonus_pct = 0.0
+party_defense_bonus_pct = 0.20
+shard_gain_bonus_pct = 0.0

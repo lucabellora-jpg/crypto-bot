@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RelicData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/RelicData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "sharpened_talisman"
+display_name = "Sharpened Talisman"
+description = "Folded paper, still razor-edged. +15% critical strike chance for the whole party."
+icon = null
+energy_max_bonus = 0
+gauge_gain_bonus_pct = 0.0
+crit_chance_bonus = 0.15
+party_attack_bonus_pct = 0.0
+party_defense_bonus_pct = 0.0
+shard_gain_bonus_pct = 0.0

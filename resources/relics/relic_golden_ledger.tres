@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RelicData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/RelicData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "golden_ledger"
+display_name = "Golden Ledger"
+description = "Records a debt owed by something that no longer has a name. +30% shards earned from combat."
+icon = null
+energy_max_bonus = 0
+gauge_gain_bonus_pct = 0.0
+crit_chance_bonus = 0.0
+party_attack_bonus_pct = 0.0
+party_defense_bonus_pct = 0.0
+shard_gain_bonus_pct = 0.30

@@ -125,7 +125,7 @@ func _start_encounter() -> void:
 	else:
 		enemy_data.assign(RunState.pending_encounter_enemies)
 
-	combat_manager.setup(party_data, enemy_data, -1, RunState.party_hp)
+	combat_manager.setup(party_data, enemy_data, -1, RunState.party_hp, RunState.current_floor)
 	_refresh_units()
 	combat_manager.start_combat()
 
@@ -256,23 +256,26 @@ func _on_combat_ended(victory: bool, rewards: Dictionary) -> void:
 			RunState.set_party_hp(char_data.id, final_hp)
 		var shard_gain: int = rewards.get("shards", 0)
 		_append_log("Victory! +%d shards." % shard_gain)
+		var won_relic: RelicData = null
 		if rewards.get("relic", false):
-			_append_log("A relic was recovered.")
+			won_relic = RunState.add_random_relic()
+			if won_relic != null:
+				_append_log("Relic recovered: %s." % won_relic.display_name)
 		var was_boss := RunState.pending_encounter_boss != null
 		RunState.pending_encounter_enemies.clear()
 		RunState.pending_encounter_boss = null
 		if was_boss:
 			RunState.advance_floor()
-		_show_end_dialog("Victory", _build_victory_text(shard_gain, rewards), "res://scenes/dungeon/DungeonMap.tscn")
+		_show_end_dialog("Victory", _build_victory_text(shard_gain, won_relic), "res://scenes/dungeon/DungeonMap.tscn")
 	else:
 		RunState.end_run(false)
 		_show_end_dialog("Defeat", "Your party has fallen. The run ends here.", "res://scenes/ui/MainMenu.tscn")
 
 
-func _build_victory_text(shard_gain: int, rewards: Dictionary) -> String:
+func _build_victory_text(shard_gain: int, won_relic: RelicData) -> String:
 	var text := "The fight is won. +%d shards." % shard_gain
-	if rewards.get("relic", false):
-		text += "\nA relic was recovered."
+	if won_relic != null:
+		text += "\nRelic recovered: %s\n%s" % [won_relic.display_name, won_relic.description]
 	return text
 
 

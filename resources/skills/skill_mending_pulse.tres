@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "mending_pulse"
+display_name = "Mending Pulse"
+description = "Channels reverse cursed technique into an ally's wounds."
+energy_cost = 1
+power = 1.2
+accuracy = 1.0
+target_type = 2
+effect_type = 1
+applies_status = null
+apply_status_chance = 1.0
+gauge_gain_self = 15
+is_domain_expansion = false

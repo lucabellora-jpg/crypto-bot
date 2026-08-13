@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SkillData.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/statuses/status_bind.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "domain_requiem"
+display_name = "Domain Expansion: Requiem of a Thousand Throats"
+description = "Every voice the curse has ever swallowed sings at once, and the domain itself trembles."
+energy_cost = 0
+power = 2.4
+accuracy = 1.0
+target_type = 1
+effect_type = 0
+applies_status = ExtResource("2")
+apply_status_chance = 0.5
+gauge_gain_self = 0
+is_domain_expansion = true

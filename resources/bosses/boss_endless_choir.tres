@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="BossData" load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/BossData.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/data/BossPhaseData.gd" id="2"]
+[ext_resource type="Resource" path="res://resources/skills/skill_discordant_wail.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/skills/skill_piercing_note.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/skills/skill_domain_requiem.tres" id="5"]
+[ext_resource type="Resource" path="res://resources/statuses/status_empower.tres" id="6"]
+
+[sub_resource type="Resource" id="1"]
+script = ExtResource("2")
+hp_threshold = 1.0
+phase_name = "First Verse"
+intro_text = "Something behind the walls is humming, off-key, in a key that shouldn't exist."
+skills = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+skill_weights = Array[float]([0.55, 0.45])
+attack_multiplier = 1.0
+defense_multiplier = 1.0
+grants_status_self = null
+
+[sub_resource type="Resource" id="2"]
+script = ExtResource("2")
+hp_threshold = 0.45
+phase_name = "Final Chorus"
+intro_text = "Every throat it has ever collected opens at once. The room stops being a room."
+skills = Array[SkillData]([ExtResource("3"), ExtResource("4"), ExtResource("5")])
+skill_weights = Array[float]([0.3, 0.3, 0.4])
+attack_multiplier = 1.35
+defense_multiplier = 1.05
+grants_status_self = ExtResource("6")
+
+[resource]
+script = ExtResource("1")
+id = "endless_choir"
+display_name = "The Endless Choir"
+flavor_text = "A special-grade curse born from a chorus that never learned how to stop."
+grade = 4
+portrait = null
+max_hp = 420
+attack = 25
+defense = 11
+speed = 14
+skills = Array[SkillData]([ExtResource("3"), ExtResource("4")])
+skill_weights = Array[float]([0.55, 0.45])
+shard_reward_min = 58
+shard_reward_max = 88
+relic_drop_chance = 0.6
+domain_intro_text = "The last door closes behind you with no sound at all. Ahead, something is still singing."
+phases = Array[BossPhaseData]([SubResource("1"), SubResource("2")])
+enrage_turn = -1
+enrage_attack_multiplier = 1.5
