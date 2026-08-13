@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "cursed_battery"
-display_name = "Cursed Battery"
-description = "A cracked storage vessel that still hums with stolen cursed energy. +2 max party energy."
+id = "cursed_energy_reserve"
+display_name = "Cursed Energy Reserve"
+description = "A storage vessel used to bank cursed energy for later. +2 max party energy."
 icon = null
 energy_max_bonus = 2
 gauge_gain_bonus_pct = 0.0

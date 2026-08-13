@@ -6,7 +6,7 @@
 script = ExtResource("1")
 id = "dismantle"
 display_name = "Dismantle"
-description = "An invisible cutting force tears through a single target."
+description = "An invisible cutting technique that tears through a single target before they register the movement."
 energy_cost = 0
 power = 1.8
 accuracy = 0.95

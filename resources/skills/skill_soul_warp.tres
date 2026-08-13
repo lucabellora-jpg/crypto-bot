@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "soul_warp"
-display_name = "Soul Warp"
-description = "The target's form is idly reshaped, sapping their strength."
+id = "idle_transfiguration"
+display_name = "Idle Transfiguration"
+description = "A touch reshapes the target's soul directly, no two results ever quite the same."
 energy_cost = 0
 power = 1.5
 accuracy = 0.95

@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "bloodroot_charm"
-display_name = "Bloodroot Charm"
-description = "Grown from soil steeped in old curses. +15% party attack."
+id = "sukunas_finger"
+display_name = "Sukuna's Finger"
+description = "One of twenty. Cursed energy pours off it even at rest. +15% party attack."
 icon = null
 energy_max_bonus = 0
 gauge_gain_bonus_pct = 0.0

@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "bone_lance"
-display_name = "Bone Lance"
-description = "A lance grown from its own marrow, thrown with unnerving precision."
+id = "root_lance"
+display_name = "Root Lance"
+description = "A hardened root erupts from the ground, thrown with unnerving precision."
 energy_cost = 0
 power = 1.5
 accuracy = 0.9

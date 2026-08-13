@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "basic_punch"
-display_name = "Straight Punch"
-description = "A basic cursed-energy-reinforced strike. Costs no energy."
+id = "punch"
+display_name = "Punch"
+description = "A straightforward punch — no cursed energy needed, just size and speed."
 energy_cost = 0
 power = 1.0
 accuracy = 1.0

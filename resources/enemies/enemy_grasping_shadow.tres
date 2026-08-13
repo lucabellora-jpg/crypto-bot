@@ -6,9 +6,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "grasping_shadow"
-display_name = "Grasping Shadow"
-flavor_text = "It clings to walls and ceilings, waiting for a moment of fear to feed on."
+id = "grade_3_curse"
+display_name = "Grade 3 Curse"
+flavor_text = "Sturdier than a Grade 4, and it knows it — it won't come at you head-on if it can help it."
 grade = 1
 portrait = null
 max_hp = 70

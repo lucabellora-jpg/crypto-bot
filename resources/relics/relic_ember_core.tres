@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "ember_core"
-display_name = "Ember Core"
-description = "A splinter of a domain that never fully closed. Domain gauges charge 25% faster."
+id = "ten_shadows_scroll"
+display_name = "Ten Shadows Scroll"
+description = "A training scroll for the Ten Shadows Technique. Domain gauges charge 25% faster."
 icon = null
 energy_max_bonus = 0
 gauge_gain_bonus_pct = 0.25

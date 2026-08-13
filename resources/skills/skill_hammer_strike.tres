@@ -6,7 +6,7 @@
 script = ExtResource("1")
 id = "hammer_strike"
 display_name = "Hammer Strike"
-description = "A straw-doll-bound hammer blow, cursed energy loaded on impact."
+description = "Straight to the point: hit it with the hammer before doing anything fancier."
 energy_cost = 0
 power = 1.0
 accuracy = 1.0

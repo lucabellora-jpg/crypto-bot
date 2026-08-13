@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "weave_curse"
-display_name = "Weave Curse"
-description = "Threads of cursed sinew wrap around the whole party, pulling tight."
+id = "forest_amplification"
+display_name = "Forest Amplification"
+description = "Roots and vines surge up around the whole party, sapping their strength as they struggle free."
 energy_cost = 0
 power = 0.0
 accuracy = 0.9

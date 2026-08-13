@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "domain_sanctuary_bloom"
-display_name = "Domain Expansion: Sanctuary Bloom"
-description = "A domain of slow-blooming light mends every wound it touches."
+id = "full_reverse_cursed_technique"
+display_name = "Full Reverse Cursed Technique"
+description = "The advanced form almost nobody can safely perform — enough to mend the whole party at once."
 energy_cost = 4
 power = 2.0
 accuracy = 1.0

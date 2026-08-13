@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "resonance_nail"
-display_name = "Resonance Nail"
-description = "Drives a nail into a straw effigy, echoing pain into the target."
+id = "resonance"
+display_name = "Resonance"
+description = "Drive a nail into a straw effigy shaped like the target, and let the pain resonate back."
 energy_cost = 1
 power = 1.3
 accuracy = 1.0

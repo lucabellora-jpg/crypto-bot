@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-id = "curse_bite"
+id = "bite"
 display_name = "Bite"
 description = "A snapping bite from a low-grade curse."
 energy_cost = 0

@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "piercing_note"
-display_name = "Piercing Note"
-description = "One perfect, unbearable frequency aimed at a single target."
+id = "volcanic_explosion"
+display_name = "Volcanic Explosion"
+description = "The ground itself detonates beneath a single target. Jogo doesn't consider this excessive."
 energy_cost = 0
 power = 1.9
 accuracy = 0.95

@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "domain_requiem"
-display_name = "Domain Expansion: Requiem of a Thousand Throats"
-description = "Every voice the curse has ever swallowed sings at once, and the domain itself trembles."
+id = "domain_coffin_of_the_iron_mountain"
+display_name = "Domain Expansion: Coffin of the Iron Mountain"
+description = "A sealed chamber of solid magma. Jogo doesn't need Simple Domain tricks — this one just burns everything inside evenly."
 energy_cost = 0
 power = 2.4
 accuracy = 1.0

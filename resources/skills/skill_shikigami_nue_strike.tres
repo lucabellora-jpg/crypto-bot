@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "shikigami_nue_strike"
-display_name = "Shikigami: Nue Strike"
-description = "A summoned nue dives from above, talons first."
+id = "nue"
+display_name = "Nue"
+description = "A lightning-fast aerial shikigami strike, crackling down before the target can track it."
 energy_cost = 1
 power = 1.3
 accuracy = 0.95

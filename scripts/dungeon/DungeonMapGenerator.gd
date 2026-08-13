@@ -14,6 +14,21 @@ const TYPE_WEIGHTS := {
 	DungeonNode.Type.REST: 1.5,
 }
 
+## Real locations, cycled by floor number so a run reads as a descent
+## through the setting rather than an abstract "Floor N".
+const FLOOR_NAMES := [
+	"Tokyo Jujutsu High",
+	"Kyoto Jujutsu High",
+	"Shibuya",
+	"Sendai Colony",
+	"Shinjuku",
+	"Yasohachi Bridge",
+]
+
+
+static func floor_name(floor_number: int) -> String:
+	return FLOOR_NAMES[(floor_number - 1) % FLOOR_NAMES.size()]
+
 
 static func generate(rng: RandomNumberGenerator, floor_number: int) -> DungeonMap:
 	var map := DungeonMap.new()

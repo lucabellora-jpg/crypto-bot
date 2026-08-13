@@ -5,8 +5,8 @@
 
 [resource]
 script = ExtResource("1")
-id = "weakening_shriek"
-display_name = "Weakening Shriek"
+id = "cursed_wail"
+display_name = "Cursed Wail"
 description = "A dissonant cry that unravels the target's cursed energy flow."
 energy_cost = 0
 power = 0.0

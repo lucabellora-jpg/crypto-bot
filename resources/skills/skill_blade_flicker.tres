@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "blade_flicker"
-display_name = "Blade Flicker"
-description = "A short, fast cut — barely visible, twice as fast the second time."
+id = "cursed_tool_strike"
+display_name = "Cursed Tool Strike"
+description = "No cursed energy, just a blade and the physical output of someone the Zenin clan badly underestimated."
 energy_cost = 0
 power = 1.0
 accuracy = 1.0

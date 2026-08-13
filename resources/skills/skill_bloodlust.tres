@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "bloodlust"
-display_name = "Bloodlust"
-description = "The husk shudders, and something in it sharpens."
+id = "fingers_pull"
+display_name = "Finger's Pull"
+description = "Proximity to Sukuna's finger sharpens it, whether it understands why or not."
 energy_cost = 0
 power = 0.0
 accuracy = 1.0

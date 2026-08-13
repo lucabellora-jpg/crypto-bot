@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "discordant_wail"
-display_name = "Discordant Wail"
-description = "A chord that should never resolve, sung by a hundred overlapping throats."
+id = "fire_arrow"
+display_name = "Fire Arrow"
+description = "A bolt of pure cursed flame, thrown almost lazily — it doesn't need to try hard against a party this size."
 energy_cost = 0
 power = 1.1
 accuracy = 0.9

@@ -6,9 +6,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "iron_maw_swarm"
-display_name = "Iron Maw Swarm"
-flavor_text = "Not one curse but hundreds, small enough to slip through a closed fist."
+id = "cursed_corpse"
+display_name = "Cursed Corpse"
+flavor_text = "A body a curse decided not to let go of. It moves wrong, and it doesn't tire the way the living do."
 grade = 1
 portrait = null
 max_hp = 75

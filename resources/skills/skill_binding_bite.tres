@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("1")
-id = "binding_bite"
+id = "clamping_bite"
 display_name = "Clamping Bite"
 description = "Jaws lock around the target, pinning them in place."
 energy_cost = 0

@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "twin_fang_rush"
-display_name = "Twin Fang Rush"
-description = "Two curved blades cross in a single blurred motion."
+id = "playful_cloud"
+display_name = "Playful Cloud"
+description = "Her signature naginata, swung with a reach and speed that shouldn't be possible without cursed energy."
 energy_cost = 1
 power = 1.5
 accuracy = 0.95

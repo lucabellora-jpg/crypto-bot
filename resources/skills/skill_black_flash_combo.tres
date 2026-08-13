@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "black_flash_combo"
-display_name = "Black Flash Combo"
-description = "A rapid burst of perfectly-timed strikes."
+id = "black_flash"
+display_name = "Black Flash"
+description = "Strike a cursed technique within 0.000001 seconds of a physical hit and the shockwave amplifies everything. Absurdly rare. He's done it before."
 energy_cost = 1
 power = 1.6
 accuracy = 0.95

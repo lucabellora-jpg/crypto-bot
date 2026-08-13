@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "purple_annihilation"
-display_name = "Diverging Surge"
-description = "Attraction and repulsion collide, engulfing every enemy."
+id = "hollow_purple"
+display_name = "Hollow Purple"
+description = "Blue and Red, overlapped for an instant. What's left afterward usually isn't much."
 energy_cost = 3
 power = 1.5
 accuracy = 1.0

@@ -8,9 +8,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "itsuki_kurogami"
-display_name = "Itsuki Kurogami"
-flavor_text = "A reserved shikigami handler who lets summoned familiars do the fighting."
+id = "megumi_fushiguro"
+display_name = "Megumi Fushiguro"
+flavor_text = "\"I don't save people because I want to. I just don't want to see the ones I've decided to protect get hurt.\" Ten Shadows Technique user, sworn to his own narrow definition of what's worth saving."
 grade = 2
 portrait = null
 max_hp = 110

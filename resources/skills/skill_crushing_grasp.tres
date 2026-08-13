@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "crushing_grasp"
-display_name = "Crushing Grasp"
-description = "A womb of grasping limbs crushes and pins its prey."
+id = "esos_onslaught"
+display_name = "Eso's Onslaught"
+description = "It doesn't waste movement. Every strike is meant to end things quickly."
 energy_cost = 0
 power = 1.4
 accuracy = 0.95

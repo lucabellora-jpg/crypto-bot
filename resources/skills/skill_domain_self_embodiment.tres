@@ -6,7 +6,7 @@
 script = ExtResource("1")
 id = "domain_self_embodiment"
 display_name = "Domain Expansion: Self-Embodiment of Perfection"
-description = "The curse sheds its mask entirely, and perfection consumes the domain."
+description = "The mask comes off entirely. Whatever soul it's settled on wearing, it commits to completely."
 energy_cost = 0
 power = 2.3
 accuracy = 1.0

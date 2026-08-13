@@ -8,9 +8,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "rin_amagase"
-display_name = "Rin Amagase"
-flavor_text = "The strongest barrier user of her generation. Unbothered, unbeaten."
+id = "gojo_satoru"
+display_name = "Gojo Satoru"
+flavor_text = "\"Throughout Heaven and Earth, I alone am the honored one.\" The strongest. He'll tell you himself, and then prove it."
 grade = 4
 portrait = null
 max_hp = 130

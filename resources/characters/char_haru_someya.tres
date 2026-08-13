@@ -8,10 +8,10 @@
 
 [resource]
 script = ExtResource("1")
-id = "haru_someya"
-display_name = "Haru Someya"
-flavor_text = "A first-year brawler who fights on instinct and raw cursed energy output."
-grade = 2
+id = "yuji_itadori"
+display_name = "Yuji Itadori"
+flavor_text = "\"I don't know how I'll feel later, but right now I just don't want to regret how I live my life.\" A first-year with monstrous physical output, sharing his body with a certain someone."
+grade = 0
 portrait = null
 max_hp = 140
 attack = 22

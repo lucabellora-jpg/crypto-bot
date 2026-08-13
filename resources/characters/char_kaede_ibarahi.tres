@@ -8,10 +8,10 @@
 
 [resource]
 script = ExtResource("1")
-id = "kaede_ibarahi"
-display_name = "Kaede Ibarahi"
-flavor_text = "A sharp-tongued straw-doll technician who never misses her mark twice."
-grade = 3
+id = "nobara_kugisaki"
+display_name = "Nobara Kugisaki"
+flavor_text = "\"I'm not going to let some curse turn me into a pushover.\" Straw Doll Technique user who left her hometown on her own terms and doesn't plan on being anyone's damsel."
+grade = 1
 portrait = null
 max_hp = 100
 attack = 20

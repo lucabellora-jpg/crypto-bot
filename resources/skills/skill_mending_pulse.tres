@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "mending_pulse"
-display_name = "Mending Pulse"
-description = "Channels reverse cursed technique into an ally's wounds."
+id = "reverse_cursed_technique"
+display_name = "Reverse Cursed Technique"
+description = "Cursed energy run backwards, closing a wound instead of opening one."
 energy_cost = 1
 power = 1.2
 accuracy = 1.0

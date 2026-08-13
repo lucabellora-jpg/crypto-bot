@@ -5,8 +5,8 @@
 
 [resource]
 script = ExtResource("1")
-id = "curse_mark_bite"
-display_name = "Festering Bite"
+id = "kechizus_bite"
+display_name = "Kechizu's Bite"
 description = "A bite that leaves a smoldering curse mark behind."
 energy_cost = 0
 power = 1.0

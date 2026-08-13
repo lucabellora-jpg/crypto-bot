@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "encircle"
-display_name = "Encircle"
-description = "The swarm spreads thin, surrounding the whole party at once."
+id = "rotting_wave"
+display_name = "Rotting Wave"
+description = "It lurches through the whole party at once, indifferent to which one it reaches first."
 energy_cost = 0
 power = 0.7
 accuracy = 0.9

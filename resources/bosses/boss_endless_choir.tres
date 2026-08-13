@@ -10,8 +10,8 @@
 [sub_resource type="Resource" id="1"]
 script = ExtResource("2")
 hp_threshold = 1.0
-phase_name = "First Verse"
-intro_text = "Something behind the walls is humming, off-key, in a key that shouldn't exist."
+phase_name = "Calm Ember"
+intro_text = "\"Sorcerers, huh.\" Jogo's cursed energy banks like a coal, patient, waiting for a reason."
 skills = Array[SkillData]([ExtResource("3"), ExtResource("4")])
 skill_weights = Array[float]([0.55, 0.45])
 attack_multiplier = 1.0
@@ -21,8 +21,8 @@ grants_status_self = null
 [sub_resource type="Resource" id="2"]
 script = ExtResource("2")
 hp_threshold = 0.45
-phase_name = "Final Chorus"
-intro_text = "Every throat it has ever collected opens at once. The room stops being a room."
+phase_name = "Eruption"
+intro_text = "\"Now we're talking.\" Jogo grins wide enough to crack, and the temperature in the room stops being survivable."
 skills = Array[SkillData]([ExtResource("3"), ExtResource("4"), ExtResource("5")])
 skill_weights = Array[float]([0.3, 0.3, 0.4])
 attack_multiplier = 1.35
@@ -31,9 +31,9 @@ grants_status_self = ExtResource("6")
 
 [resource]
 script = ExtResource("1")
-id = "endless_choir"
-display_name = "The Endless Choir"
-flavor_text = "A special-grade curse born from a chorus that never learned how to stop."
+id = "jogo"
+display_name = "Jogo"
+flavor_text = "A special-grade curse who thinks the strongest sorcerers should be given every chance to actually try. He means it as a compliment."
 grade = 4
 portrait = null
 max_hp = 420
@@ -45,7 +45,7 @@ skill_weights = Array[float]([0.55, 0.45])
 shard_reward_min = 58
 shard_reward_max = 88
 relic_drop_chance = 0.6
-domain_intro_text = "The last door closes behind you with no sound at all. Ahead, something is still singing."
+domain_intro_text = "The air goes dry, then hot, then unbreathable. Somewhere close, something volcanic is smiling."
 phases = Array[BossPhaseData]([SubResource("1"), SubResource("2")])
 enrage_turn = -1
 enrage_attack_multiplier = 1.5

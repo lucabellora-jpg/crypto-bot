@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "ten_shadows_guard"
-display_name = "Shikigami Wall"
-description = "Summons a shikigami to shield an ally from harm."
+id = "rabbit_escape"
+display_name = "Rabbit Escape"
+description = "A support shikigami, fast enough to slip in and shield an ally before the next blow lands."
 energy_cost = 1
 power = 0.0
 accuracy = 1.0

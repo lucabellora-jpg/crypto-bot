@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "domain_thousandfold_blades"
-display_name = "Domain Expansion: Thousandfold Blades"
-description = "A domain of endlessly falling blades finds every angle at once."
+id = "playful_cloud_full_swing"
+display_name = "Playful Cloud: Full Swing"
+description = "A full, unrestrained swing that doesn't leave room for a second curse to still be standing."
 energy_cost = 4
 power = 2.0
 accuracy = 1.0

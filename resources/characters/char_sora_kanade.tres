@@ -8,10 +8,10 @@
 
 [resource]
 script = ExtResource("1")
-id = "sora_kanade"
-display_name = "Sora Kanade"
-flavor_text = "Faster than her cursed tools should allow her to be, and she knows it."
-grade = 2
+id = "maki_zenin"
+display_name = "Maki Zenin"
+flavor_text = "\"I don't need cursed energy. I've got everything else.\" Born without a drop of cursed energy and written off by her own clan for it — which is exactly why nobody sees her coming."
+grade = 3
 portrait = null
 max_hp = 105
 attack = 19

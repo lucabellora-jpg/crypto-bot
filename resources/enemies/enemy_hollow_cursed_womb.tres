@@ -6,9 +6,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "hollow_cursed_womb"
-display_name = "Hollow Cursed Womb"
-flavor_text = "A mass of grasping limbs folded around an empty, hungry center."
+id = "eso"
+display_name = "Eso"
+flavor_text = "One of the two special-grade curses Jogo keeps close. Doesn't talk much. Doesn't need to."
 grade = 2
 portrait = null
 max_hp = 130

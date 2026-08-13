@@ -6,9 +6,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "muttering_husk"
-display_name = "Muttering Husk"
-flavor_text = "It repeats the last words of whoever it fed on, over and over, slightly wrong."
+id = "finger_bearer"
+display_name = "Finger Bearer"
+flavor_text = "A curse that made the mistake of getting close to one of Sukuna's fingers. It's stronger for it, and it knows exactly what it's protecting."
 grade = 0
 portrait = null
 max_hp = 55

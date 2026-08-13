@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "phantom_step"
-display_name = "Phantom Step"
-description = "Leaves an afterimage behind and steps through it, faster than before."
+id = "heavenly_restriction"
+display_name = "Heavenly Restriction"
+description = "Born with zero cursed energy — and every ounce of it redirected into raw physical ability instead."
 energy_cost = 1
 power = 0.0
 accuracy = 1.0

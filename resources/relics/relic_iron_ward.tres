@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "iron_ward"
-display_name = "Iron Ward"
-description = "A talisman-etched plate worn smooth by countless deflected blows. +20% party defense."
+id = "inverted_spear_of_heaven"
+display_name = "Inverted Spear of Heaven"
+description = "A legendary cursed tool that nullifies cursed techniques on contact. +20% party defense."
 icon = null
 energy_max_bonus = 0
 gauge_gain_bonus_pct = 0.0

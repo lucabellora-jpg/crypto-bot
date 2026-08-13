@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "ward_sigil"
-display_name = "Ward Sigil"
-description = "Paints a protective sigil across an ally's chest."
+id = "cursed_energy_ward"
+display_name = "Cursed Energy Ward"
+description = "A defensive lattice of cursed energy, thrown up around an ally mid-fight."
 energy_cost = 1
 power = 0.0
 accuracy = 1.0

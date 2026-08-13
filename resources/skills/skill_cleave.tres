@@ -6,7 +6,7 @@
 script = ExtResource("1")
 id = "cleave"
 display_name = "Cleave"
-description = "A wide arc of cursed energy sweeps across the party."
+description = "A wide, contemptuous arc of cutting force sweeps across the whole party."
 energy_cost = 0
 power = 1.2
 accuracy = 0.9

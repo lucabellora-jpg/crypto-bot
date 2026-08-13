@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "sharpened_talisman"
-display_name = "Sharpened Talisman"
-description = "Folded paper, still razor-edged. +15% critical strike chance for the whole party."
+id = "split_soul_katana"
+display_name = "Split Soul Katana"
+description = "Toji Fushiguro's blade, capable of cutting the soul along with the body. +15% critical strike chance."
 icon = null
 energy_max_bonus = 0
 gauge_gain_bonus_pct = 0.0

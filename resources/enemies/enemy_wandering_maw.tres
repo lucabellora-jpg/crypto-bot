@@ -6,9 +6,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "wandering_maw"
-display_name = "Wandering Curse: Maw"
-flavor_text = "A shapeless mouth born from idle malice. Weak alone, common in packs."
+id = "grade_4_curse"
+display_name = "Grade 4 Curse"
+flavor_text = "Born from the idle malice of a crowded city block. Barely worth a second look — until there are a dozen of them."
 grade = 0
 portrait = null
 max_hp = 50

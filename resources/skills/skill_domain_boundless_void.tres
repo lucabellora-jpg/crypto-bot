@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "domain_boundless_void"
-display_name = "Domain Expansion: Boundless Void"
-description = "An inescapable domain where every strike lands true."
+id = "domain_unlimited_void"
+display_name = "Domain Expansion: Unlimited Void"
+description = "Infinite information, infinite stimulus, nowhere to look away to. Nobody walks out of this unless he decides they do."
 energy_cost = 5
 power = 3.0
 accuracy = 1.0

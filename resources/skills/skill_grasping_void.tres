@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "grasping_void"
-display_name = "Grasping Void"
-description = "A hollow hand reaches through space itself to seize its prey."
+id = "body_repel"
+display_name = "Body Repel"
+description = "A concussive blast of cursed energy, thrown with a curious, almost childlike delight."
 energy_cost = 0
 power = 1.3
 accuracy = 0.95

@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "groan"
-display_name = "Groan"
-description = "A low, formless sound that presses against the ribs."
+id = "frenzied_lunge"
+display_name = "Frenzied Lunge"
+description = "It throws itself forward, half-mad with whatever the finger's proximity is doing to it."
 energy_cost = 0
 power = 0.9
 accuracy = 1.0

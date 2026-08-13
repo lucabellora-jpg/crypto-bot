@@ -6,9 +6,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "twin_faced_rot"
-display_name = "Twin-Faced Rot"
-flavor_text = "Two faces share one rotting body, each one hungrier than the other."
+id = "kechizu"
+display_name = "Kechizu"
+flavor_text = "Jogo's other special-grade curse. Where Eso is patient, Kechizu isn't."
 grade = 2
 portrait = null
 max_hp = 150

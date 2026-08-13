@@ -8,10 +8,10 @@
 
 [resource]
 script = ExtResource("1")
-id = "mei_sorano"
-display_name = "Mei Sorano"
-flavor_text = "A calm, methodical healer who treats the battlefield like a garden to be tended."
-grade = 1
+id = "shoko_ieiri"
+display_name = "Shoko Ieiri"
+flavor_text = "\"Living or dead, I can patch just about anyone back together — for a price in cigarettes.\" The school doctor, and one of the only people alive who can use Reverse Cursed Technique this well."
+grade = 4
 portrait = null
 max_hp = 115
 attack = 14

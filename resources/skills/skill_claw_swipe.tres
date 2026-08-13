@@ -4,8 +4,8 @@
 
 [resource]
 script = ExtResource("1")
-id = "claw_swipe"
-display_name = "Claw Swipe"
+id = "claw"
+display_name = "Claw"
 description = "A raking swipe of blackened talons."
 energy_cost = 0
 power = 1.1

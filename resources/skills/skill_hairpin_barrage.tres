@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "hairpin_barrage"
-display_name = "Hairpin Barrage"
-description = "A flurry of thrown hairpins peppers every enemy."
+id = "hairpin"
+display_name = "Hairpin"
+description = "A spray of hairpins, straw doll technique riding along every one of them."
 energy_cost = 2
 power = 0.9
 accuracy = 0.9

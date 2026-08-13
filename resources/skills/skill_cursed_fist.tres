@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "cursed_fist"
-display_name = "Cursed Fist"
-description = "A crushing blow that saps the target's cursed energy control."
+id = "divergent_fist"
+display_name = "Divergent Fist"
+description = "A punch with two impacts on one swing — the follow-through lands a half-beat after the first, rattling the target's cursed energy control."
 energy_cost = 1
 power = 1.2
 accuracy = 1.0

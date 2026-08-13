@@ -51,7 +51,9 @@ func _ready() -> void:
 
 
 func _refresh() -> void:
-	_status_label.text = "Floor %d   |   Shards: %d" % [RunState.current_floor, RunState.run_shards]
+	_status_label.text = "Floor %d — %s   |   Shards: %d" % [
+		RunState.current_floor, DungeonMapGenerator.floor_name(RunState.current_floor), RunState.run_shards
+	]
 
 	var party_bits: Array[String] = []
 	for id in RunState.party_ids:

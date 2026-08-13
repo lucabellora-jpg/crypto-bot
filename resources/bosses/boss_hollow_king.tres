@@ -9,8 +9,8 @@
 [sub_resource type="Resource" id="1"]
 script = ExtResource("2")
 hp_threshold = 1.0
-phase_name = "Idle Form"
-intro_text = "It wears a shape that isn't quite human, testing how your fear reacts to it."
+phase_name = "Curious Face"
+intro_text = "\"I wonder what a soul like yours feels like.\" It tilts its head, genuinely curious, which is somehow worse."
 skills = Array[SkillData]([ExtResource("3"), ExtResource("4")])
 skill_weights = Array[float]([0.5, 0.5])
 attack_multiplier = 1.0
@@ -21,7 +21,7 @@ grants_status_self = null
 script = ExtResource("2")
 hp_threshold = 0.4
 phase_name = "True Form"
-intro_text = "The mask comes off. Underneath, there was never a face to begin with."
+intro_text = "\"Let's stop pretending I need this face.\" Whatever it was wearing sloughs off — this is what's underneath."
 skills = Array[SkillData]([ExtResource("3"), ExtResource("4"), ExtResource("5")])
 skill_weights = Array[float]([0.3, 0.3, 0.4])
 attack_multiplier = 1.4
@@ -30,9 +30,9 @@ grants_status_self = null
 
 [resource]
 script = ExtResource("1")
-id = "hollow_king"
-display_name = "The Hollow King"
-flavor_text = "A special-grade curse born of humanity's idle disgust with its own shape."
+id = "mahito"
+display_name = "Mahito"
+flavor_text = "A special-grade curse born of humanity's mutual loathing. Idle Transfiguration lets it reshape a soul on contact — and it finds the results fascinating."
 grade = 4
 portrait = null
 max_hp = 380
@@ -44,7 +44,7 @@ skill_weights = Array[float]([0.5, 0.5])
 shard_reward_min = 55
 shard_reward_max = 85
 relic_drop_chance = 0.6
-domain_intro_text = "Every mirror in the hall cracks at once. Something wearing your reflection steps out of the largest shard."
+domain_intro_text = "It's smiling before you even see it — the kind of smile that's studying you, not greeting you."
 phases = Array[BossPhaseData]([SubResource("1"), SubResource("2")])
 enrage_turn = -1
 enrage_attack_multiplier = 1.5

@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "infinity_guard"
-display_name = "Boundary Wall"
-description = "Warps space around the caster, deflecting incoming force."
+id = "infinity"
+display_name = "Infinity"
+description = "An unbroken boundary between himself and everything trying to reach him. Nothing gets through unless he lets it."
 energy_cost = 0
 power = 0.0
 accuracy = 1.0

@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "double_slash"
-display_name = "Twin Slash"
-description = "Two faces, two blades, one strike."
+id = "kechizus_onslaught"
+display_name = "Kechizu's Onslaught"
+description = "Faster than Eso, and far less patient about it."
 energy_cost = 0
 power = 1.6
 accuracy = 0.95

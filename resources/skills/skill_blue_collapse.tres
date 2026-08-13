@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "blue_collapse"
-display_name = "Collapsing Convergence"
-description = "A point of implosive force crushes a single target."
+id = "blue"
+display_name = "Blue"
+description = "Cursed Technique Lapse: Blue — a point of collapsing attraction that drags its target in and crushes them."
 energy_cost = 2
 power = 2.0
 accuracy = 1.0

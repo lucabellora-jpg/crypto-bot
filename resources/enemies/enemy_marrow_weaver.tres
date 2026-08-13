@@ -6,9 +6,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "marrow_weaver"
-display_name = "Marrow Weaver"
-flavor_text = "It builds its nest from the bones of whoever came looking for its previous nest."
+id = "hanami"
+display_name = "Hanami"
+flavor_text = "A special-grade curse born of humanity's guilt over nature — and none too fond of humans for it. Roots and branches answer when it calls."
 grade = 2
 portrait = null
 max_hp = 140

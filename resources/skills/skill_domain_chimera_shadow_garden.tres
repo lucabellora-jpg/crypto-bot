@@ -7,7 +7,7 @@
 script = ExtResource("1")
 id = "domain_chimera_shadow_garden"
 display_name = "Domain Expansion: Chimera Shadow Garden"
-description = "A horde of shikigami floods the domain, dragging every foe down."
+description = "Every shikigami in the Ten Shadows arsenal, unleashed at once inside a domain that guarantees the hit."
 energy_cost = 4
 power = 1.8
 accuracy = 1.0

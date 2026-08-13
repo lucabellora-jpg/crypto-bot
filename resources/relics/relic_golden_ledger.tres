@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "golden_ledger"
-display_name = "Golden Ledger"
-description = "Records a debt owed by something that no longer has a name. +30% shards earned from combat."
+id = "culling_game_tag"
+display_name = "Culling Game Tag"
+description = "A player tag from a game nobody asked to join. Points convert to rewards either way. +30% shards earned from combat."
 icon = null
 energy_max_bonus = 0
 gauge_gain_bonus_pct = 0.0

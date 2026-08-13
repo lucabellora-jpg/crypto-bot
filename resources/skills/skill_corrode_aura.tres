@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1")
-id = "corrode_aura"
-display_name = "Corrode Aura"
-description = "A corrosive pulse of cursed energy washes over the whole party."
+id = "esos_corrosion"
+display_name = "Eso's Corrosion"
+description = "A pulse of cursed energy that saps the whole party's strength at once."
 energy_cost = 0
 power = 0.0
 accuracy = 0.85
